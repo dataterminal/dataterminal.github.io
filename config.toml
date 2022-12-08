@@ -1,0 +1,61 @@
+baseURL = "https://dataterminal.github.io"
+title = "dataterminal"
+languageCode = "sv-SE"
+theme = "devise"
+relativeURLs = true
+enableEmoji = true
+#googleAnalytics = ""
+enableRobotsTXT = true
+copyright = "© 2022 dataterminal"
+publishDir = "docs"
+
+# Main menu items
+[menu]
+  [[menu.main]]
+    identifier = "om"
+    name = "Om"
+    title = "om"
+    url = "/about/"
+    weight = -110
+  [[menu.main]]
+    identifier = "posts"
+    name = "Artiklar"
+    title = "Artiklar"
+    url = "/post/"
+    weight = -100
+  [[menu.main]]
+    identifier = "categories"
+    name = "Kategorier"
+    title = "Kategorier"
+    url = "/categories/"
+    weight = -90
+    [[menu.main]]
+    identifier = "tags"
+    name = "Taggar"
+    title = "Taggar"
+    url = "/tags/"
+    weight = -80
+
+# Configuration Features
+[params]
+  description = "Spicy content om radiolära, cyber och SIGINT. Så spicy det kan bli med vågutbredning, modulering och signaldisciplin. Vi tittar på aktuella hotaktörer, attackvektorer och elektronisk krigföring. Var en tillgång - tråkigt vinner."   # Your meta description of the site
+  header_title = "DATATERMINAL"              # Your header title
+  header_subtitle = "Skriver om radio och cyber." # Your header subtitle
+  home_image = "/images/avatar.png"          # Path to header image starting from the static directory
+  recent_posts = 5                           # Max amount of recent posts to show
+  mainSections = ["posts", "post", "blog"]   # Main sections to include in recent posts
+  [params.style]                             # CSS style overrides
+    backgroundColor = "#151518"
+    fontColor = "#fffef3"
+  [[params.social]]
+    fa_icon = "fab fa-github fa-1x"          # Font Awesome icon class
+    href = "http://github.com/dataterminal"  # Link to associate with icon (http://, https://, mailto:)
+  [[params.social]]
+    fa_icon = "fab fa-instagram fa-1x"
+    href = "http://instagram.com/datarapporteringsterminal"
+  [[params.social]]
+    fa_icon = "fab fa-twitter fa-1x"
+    href = "http://twitter.com/dataterminal_"
+  [[params.social]]
+    fa_icon = "fas fa-envelope fa-1x"
+    href = "mailto: datarapporteringsterminal@gmail.com"
