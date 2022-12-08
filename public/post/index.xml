@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on dataterminal</title>
+    <link>https://dataterminal.github.io/post/</link>
+    <description>Recent content in Posts on dataterminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv-SE</language>
+    <copyright>© 2022 dataterminal</copyright>
+    <lastBuildDate>Tue, 22 Nov 2022 22:42:49 +0100</lastBuildDate>
+    
+	<atom:link href="https://dataterminal.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wardriving</title>
+      <link>https://dataterminal.github.io/post/wardriving/</link>
+      <pubDate>Tue, 22 Nov 2022 22:42:49 +0100</pubDate>
+      
+      <guid>https://dataterminal.github.io/post/wardriving/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Ordet Wardriving myntades kring 2001 och är en aktivitet där man med hjälp av en dator, mobiltelefon, Playstation Portable eller Nintendo DS etc. åker, går, cyklar, springer eller flyger i jakt på öppna och oskyddade WiFi-nätverk.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>OSINT</title>
+      <link>https://dataterminal.github.io/post/osint/</link>
+      <pubDate>Sun, 20 Nov 2022 15:51:12 +0100</pubDate>
+      
+      <guid>https://dataterminal.github.io/post/osint/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Denna artikel tittar på OSINT - vad det är och hur du kommer igång.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ransomware</title>
+      <link>https://dataterminal.github.io/post/ransomware/</link>
+      <pubDate>Thu, 17 Nov 2022 08:54:12 +0100</pubDate>
+      
+      <guid>https://dataterminal.github.io/post/ransomware/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;../images/ransomware-ascii-skull.webp&#34; alt=&#34;Ransomware ASCII-art döskalle&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Denna artikel tittar på Ransomware - attacker och åtgärder.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

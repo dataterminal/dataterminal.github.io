@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SIGINT on dataterminal</title>
+    <link>https://dataterminal.github.io/tags/sigint/</link>
+    <description>Recent content in SIGINT on dataterminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv-SE</language>
+    <copyright>© 2022 dataterminal</copyright>
+    <lastBuildDate>Tue, 22 Nov 2022 22:42:49 +0100</lastBuildDate>
+    
+	<atom:link href="https://dataterminal.github.io/tags/sigint/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wardriving</title>
+      <link>https://dataterminal.github.io/post/wardriving/</link>
+      <pubDate>Tue, 22 Nov 2022 22:42:49 +0100</pubDate>
+      
+      <guid>https://dataterminal.github.io/post/wardriving/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Ordet Wardriving myntades kring 2001 och är en aktivitet där man med hjälp av en dator, mobiltelefon, Playstation Portable eller Nintendo DS etc. åker, går, cyklar, springer eller flyger i jakt på öppna och oskyddade WiFi-nätverk.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

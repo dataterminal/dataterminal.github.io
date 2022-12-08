@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on dataterminal</title>
+    <link>https://dataterminal.github.io/tags/</link>
+    <description>Recent content in Tags on dataterminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv-SE</language>
+    <copyright>© 2022 dataterminal</copyright>
+    <lastBuildDate>Tue, 22 Nov 2022 22:42:49 +0100</lastBuildDate>
+    
+	<atom:link href="https://dataterminal.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>osint</title>
+      <link>https://dataterminal.github.io/tags/osint/</link>
+      <pubDate>Tue, 22 Nov 2022 22:42:49 +0100</pubDate>
+      
+      <guid>https://dataterminal.github.io/tags/osint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SIGINT</title>
+      <link>https://dataterminal.github.io/tags/sigint/</link>
+      <pubDate>Tue, 22 Nov 2022 22:42:49 +0100</pubDate>
+      
+      <guid>https://dataterminal.github.io/tags/sigint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wardriving</title>
+      <link>https://dataterminal.github.io/tags/wardriving/</link>
+      <pubDate>Tue, 22 Nov 2022 22:42:49 +0100</pubDate>
+      
+      <guid>https://dataterminal.github.io/tags/wardriving/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WiFi</title>
+      <link>https://dataterminal.github.io/tags/wifi/</link>
+      <pubDate>Tue, 22 Nov 2022 22:42:49 +0100</pubDate>
+      
+      <guid>https://dataterminal.github.io/tags/wifi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cybersecurity</title>
+      <link>https://dataterminal.github.io/tags/cybersecurity/</link>
+      <pubDate>Sun, 20 Nov 2022 15:51:12 +0100</pubDate>
+      
+      <guid>https://dataterminal.github.io/tags/cybersecurity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DIY</title>
+      <link>https://dataterminal.github.io/tags/diy/</link>
+      <pubDate>Sun, 20 Nov 2022 15:51:12 +0100</pubDate>
+      
+      <guid>https://dataterminal.github.io/tags/diy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>intel</title>
+      <link>https://dataterminal.github.io/tags/intel/</link>
+      <pubDate>Sun, 20 Nov 2022 15:51:12 +0100</pubDate>
+      
+      <guid>https://dataterminal.github.io/tags/intel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>attackvektor</title>
+      <link>https://dataterminal.github.io/tags/attackvektor/</link>
+      <pubDate>Thu, 17 Nov 2022 08:54:12 +0100</pubDate>
+      
+      <guid>https://dataterminal.github.io/tags/attackvektor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hotaktör</title>
+      <link>https://dataterminal.github.io/tags/hotakt%C3%B6r/</link>
+      <pubDate>Thu, 17 Nov 2022 08:54:12 +0100</pubDate>
+      
+      <guid>https://dataterminal.github.io/tags/hotakt%C3%B6r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ranwomware</title>
+      <link>https://dataterminal.github.io/tags/ranwomware/</link>
+      <pubDate>Thu, 17 Nov 2022 08:54:12 +0100</pubDate>
+      
+      <guid>https://dataterminal.github.io/tags/ranwomware/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
