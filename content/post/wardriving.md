@@ -25,6 +25,9 @@ Det hålls tävlingar i Wardriving där man på kortast tid ska hitta så många
 
 Mer dedikerad utrustning finns givetvis tillgänglig, med ökad förmåga till intrång och avlyssning - likt denna WiFi Pineapple.
 
+![Wifi Pineapple](/images/wardriving-hak5-wifi-pineapple-nano.webp)  
+*`En Wifi Pineapple från` [Hak5](https://shop.hak5.org/)*
+
 ---
 ⚠️ `ALL ANVÄNDNING SKER PÅ EGEN RISK. TEXTEN ÄR I RENT INFORMATIVT SYFTE.`
 
@@ -42,10 +45,10 @@ För att skydda sig mot intrång och dataförlust kan vi vidta ett par direkta �
 Anledningen till varför vi inte vill behålla routerns grundinställda namn är för att **en hotaktör med den informationen kan veta vilken typ av lösenord den routern kommer förinställd med.** Vet man att ex. Netgear använder sig av en sifferkombination med en längd av 6 tecken är det lätt att fokusera sin attack. 
 
 ---
-ℹ️ `EN 6 TECKEN LÅNG SIFFERKOMBINATION ÄR ENKEL ATT CRACKA.`
+⚠️ `EN 6 TECKEN LÅNG SIFFERKOMBINATION ÄR ENKEL ATT CRACKA.`
 
 ---
-#### VAD VI SÄNDER UT
+### VAD VI SÄNDER UT
 
 Alla enheter sänder ut **BSSID** (basic service set identifier). Detta är enhetens MAC-adress. De första 6 tecknen är enhetsspecifika, vilket betyder att det ändå går att få reda på tillverkare. Exempelvis här: https://standards-oui.ieee.org/oui/oui.txt
 
@@ -53,9 +56,9 @@ Att dölja sitt **SSID** (service set ID) kan tyckas vara bra (vilket det kan va
 
 ## SIGINT
 
-I linje med vad @datarapporteringsterminal handlar om ska vi självklart använda detta till vår fördel, om än mer arkiverat under kategorin "heh, detta var ju lite kul", för att få en känsla för hur etern ser ut i vår omgivning.
+I linje med datarapporteringsterminals syfte ska vi självklart använda detta till vår fördel, om än mer arkiverat under kategorin "heh, detta var ju lite kul", för att få en känsla för hur etern ser ut i vår omgivning.
 
-## KOM IGÅNG
+### KOM IGÅNG
 
 1. Skapa ett konto på wigle.net
 2. Ladda ner appen WiGLE WiFi Wardriving från Google Play. Apple slog tidigt ner på denna möjlighet, så har du inte Android kan jag inte hjälpa dig*.
@@ -64,7 +67,7 @@ I linje med vad @datarapporteringsterminal handlar om ska vi självklart använd
 
 **möjligheten kanske finns, men den känner inte jag till; googla.*
 
-#### INITIALA REFLEKTIONER
+### INITIALA REFLEKTIONER
 
 Du kommer initialt troligtvis märka två saker;
 
@@ -75,9 +78,9 @@ Utöver att det är någorlunda intressant att se lila prickar på en karta finn
 
 I övrigt är denna aktivitet mer att ses som en nördig aktivitet och en bra infart till området SIGINT, primärt DIY SIGINT. 
 
-#### UTRUSTNING
+## UTRUSTNING
 
-Vill man ta det ett steg längre, förbi sin Android, finns det mer eller mindre dyr dedikerad utrustning att införskaffa. Vill man inte ta det riktigt så långt rekommenderas att använda en laptop som kör Linux tillsammans med Kismet, en GPS- och WiFi-mottagare. 
+Vill man ta det ett steg längre, förbi sin Android, finns det mer eller mindre dyr, dedikerad utrustning att införskaffa. Vill man inte ta det riktigt så långt rekommenderas att använda en laptop som kör Linux tillsammans med Kismet, en GPS- och WiFi-mottagare. 
 
 ## AVSLUTNINGSVIS 
 

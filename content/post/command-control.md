@@ -13,12 +13,12 @@ tags = [
 categories = [
     "Samband",
 ]
-draft = true
+draft = false
 +++
 
 `Denna artikel tittar på Command & Control, C2.`
 <!--more-->
-# INLEDNING
+## INLEDNING
 
 Burna C2-system har varit i ropet ett tag (se ATAK) och 2022-10-11 släppte [FOI en rapport om försök med Systematic SitaWare Edge](https://foi.se/rapportsammanfattning?reportNo=FOI-R--5344--SE).
 
@@ -80,11 +80,4 @@ För en privatperson kan ATAK användas för exempelvis planering av vandringsru
 För den som önskar fördjupa sig i ämnet finns det resurser att inhämta via valfri sökmotor. En början kan vara att lära sig en molntjänst, antingen jättarna AWS, Azure, Google eller mindre alternativ likt Kamatera, Liquid Web etc. Amazon Lightsail kanske är en bra kompromiss mellan användarvänlighet och kostnad. 
 
 Kolla in Free Tak Server och utforska Youtube. En bra idé kan vara att skaffa sig [grundläggande kunskaper inom Git](https://www.youtube.com/watch?v=HVsySz-h9r4) då det på Github kan finnas relevanta repos ĺikt denna, [för kartor](https://github.com/joshuafuller/ATAK-Maps).
-
----
-
-
-
-  *Instagram:* [@datarapporteringsterminal](instagram.com),
-  "Twitter": "dataterminal_",
 

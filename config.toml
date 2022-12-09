@@ -40,7 +40,7 @@ copyright = "© 2022 dataterminal"
 [params]
   description = "Spicy content om radiolära, cyber och SIGINT. Så spicy det kan bli med vågutbredning, modulering och signaldisciplin. Vi tittar på aktuella hotaktörer, attackvektorer och elektronisk krigföring. Var en tillgång - tråkigt vinner."   # Your meta description of the site
   header_title = "DATATERMINAL"               # Your header title
-  header_subtitle = "DEFENSIV INFRASTRUKTUR." # Your header subtitle
+  header_subtitle = "DEFENSIV INFRASTRUKTUR™" # Your header subtitle
   home_image = "/images/avatar.png"           # Path to header image starting from the static directory
   recent_posts = 5                            # Max amount of recent posts to show
   mainSections = ["posts", "post", "blog"]    # Main sections to include in recent posts

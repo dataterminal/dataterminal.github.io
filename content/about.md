@@ -8,13 +8,15 @@ author = "redaktionen"
 ## BAKGRUND
 Dataterminal började som Instagramkontot [datarapporteringsterminal](https://instagram.com/datarapporteringsterminal/) under hösten 2022. Syftet var då att skapa en kanal riktad främst till personal som på något sätt var verksam inom Försvarsmakten - oavsett anställd eller Hemvärnet - med målssättningen att bidra till en förmågehöjning inom områdena radiolära, signalskydd och till viss del även cyber, genom enkelt och lättillgängligt utbildningsmaterial.  
 
-#### Dunning-Kreuger
+#### Dunning-Kruger
 
-Dunning-Kreuger slog ner på redaktionen och innehållsmässigt gick utvecklingen snabbt mot att involvera mer avancerade ämnen.
+Dunning-Kruger slog ner på redaktionen och innehållsmässigt gick utvecklingen snabbt mot att involvera mer avancerade ämnen.
 
 Detta, tillsammans med en målsättning om mer R&D - tester och labbar - renderade i att denna hemsida skapades, för att ännu enklare nå ut med innehåll som, pga. formatbegränsningar på Instagram inte direkt lämpar sig där.
 
 ## WEBBPLATSEN
+
+Dataterminals erfarenhetsbank när det kommer till webdev är *begränsad*. Vill ej heller använda en av de stora plattformarna, utan vill ha en snabb sida där jag själv kan välja analytics-nivåer etc. En kravspec tillkom. 
 
 #### Kravspec:
 
