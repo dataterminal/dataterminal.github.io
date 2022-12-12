@@ -30,6 +30,16 @@ I antennen omvandlas den elektriska energin till elektromagnetisk strålning som
 
 Mottagande antenn tar sedan emot den elektromagnetiska strålningen, omvandlar den till elektrisk energi och matar den via transmissionsledningen till mottagaren. 
 
+**Principiellt kan allting vara en antenn**, så länge materialet är konduktivt, dvs. elektriskt ledande. Ett gem skulle exempelvis kunna användas för att sända och ta emot signaler.  
+
+Nu är ju ett (metalliskt) gem rätt litet och har inte så många användningsområden annat än för mindre system. För sändningar som behöver färdas längre avstånd, exempelvis till rymdfarkoster tiotals miljarder kilometer bort från jorden, krävs betydligt mer avancerade system.  
+
+Hela området däremellan ställer olika krav på antennernas utförande, men några generella principer är applicerbara oavsett systemstorlek och användningsområde.
+
+## GRUNDLÄGGANDE PRINCIPER
+
+### RESONANS
+
 I en *resonant antenn* studsar vågorna av ström och spänning fram och tillbaka mellan antennändarna och skapar stående vågor längs elementen. *Monopol*- och *dipolantennen* är exempel på detta och denna typ av antenn kan även kallas *stående våg-antenn*  
 
 Motsatsen kallas *resande-vågsantenn* och där går energin som genererar den elektromagnetiska strålningen - radiovågorna - genom antennen i en (1) riktning. Exempel på antenner är här den [*rombiska antennen*](https://en.wikipedia.org/wiki/Rhombic_antenna), den [*axiala helixantennen*](https://en.wikipedia.org/wiki/Helical_antenna) och [*trådantennen*](https://en.wikipedia.org/wiki/Random_wire_antenna).  
@@ -47,20 +57,38 @@ Eftersom resande-vågsantennen är icke-resonant har den fördelen av att vara m
  
 
 ---  
+### STRÅLNINGSMÖNSTER  
 
-Trådlös kommunikation är avgörande för att det moderna samhället ska funka, men det finns många tillfällen då trådad kommunikation är att föredra, exempelvis höghastighets-ethernet eller signalen mellan din spelkonsoll och TVn. Ett annat tillfälle där tråd är optimalt är vid militär förläggningsplats, då vi till allra högsta grad vill minimera risken för att vår elektromagetiska signatur når fientlig EW-kapacitet. 
+En antenn kan antingen vara rundstrålande (eng. omnidirectional) eller riktstrålande (eng. directional).
 
-## ALLMÄNT 
+Energin som en antenn utstrålar kan representeras av dess strålningsmönster, vilket är diagrammatiska representationer över hur den elektromagnetiska strålningen distribueras ut i fria rymden.
 
-Principiellt kan allting vara en antenn, så länge materialet är konduktivt, dvs. elektriskt ledande. Ett gem skulle exempelvis kunna användas för att sända och ta emot signaler.  
+![Low-gain vs. high-gain antenn](/images/antenner-low-gain-high-gain.webp)  
+*`Low-gain vs. high-gain antenn. Notera den tillplattade formen på high-gain-antennen; mer effekt i smalare riktning.`*
 
-Nu är ju ett (metalliskt) gem rätt litet och har inte så många användningsområden annat än för mindre system. För sändningar som behöver färdas längre avstånd, exempelvis till rymdfarkoster tiotals miljarder kilometer bort från jorden, krävs betydligt mer avancerade system.  
+#### RUNDSTRÅLANDE - LOW-GAIN ANTENNA (LGA)  
 
-Hela området däremellan ställer olika krav på antennernas utförande, men några generella principer är applicerbara oavsett systemstorlek och användningsområde.  
+Denna antenn strålar lika i alla horisontella riktningar runt antennen, enl. vänstra bilden.
+
+Strålningen är symmetrisk i dess azimutala riktningar, men ju närmre Z-axeln vi kommer, desto mindre strålar antennen. Detta kallas för null - noll - och antennen kommer inte att ta emot signaler som kommer från null-riktning.  
+
+#### RIKTVERKAN - HIGH-GAIN ANTENNA (HGA)  
+
+För att uppnå riktverkan med en rundstrålande antenn behöver man justera antennens gain så den utstrålar större effekt i specifika riktningar. 
+
+Detta ger ökad prestanda jämfört med rundstrålande antenner samt mindre benägen att ta upp störningar från oönskade källor.  
+
+#### RIKTSTRÅLANDE  
+
+Den observante kanske lägger märke till att båda dessa exempel tycks stråla 360⁰ - alltså vara rundstrålande. **Det stämmer**.
+
+För att uppnå riktverkan med en dedikerad riktantenn behöver själva antennen och dess element ordnas på ett sådan sätt att dess strålning färdas primärt i önskad riktning.
 
 ### ANTENNLÄNGD 
 
-Vi har i [artikeln om våglängder](/post/radiolara/) tittat på radiovågens relation till frekvensen (våglängd och frekvens är omvänt relaterade) och hur man enkelt räknar på detta.  
+Frekvens och våglängd är omvänt relaterade, dvs. *hög frekvens = kort våglängd och vice versa*. För att den **transversella elektromagnetiska vågen** (TEM-våg) som färdas i koaxialkabeln ska kunna lämna antennen (*effektivt*) behöver antennen vara av en längd som överensstämmer med vågens längd - våglängden. 
+
+Det behöver inte var en hel våglängd, utan kan vara ex. en halv- eller kvartsvågslängd; λ, ½ λ, ¼ λ. Monteras antennelementen likt en *discone*-, *yagi*- eller *log-periodisk antenn* kan vi få bredbandiga antenner; alltså antenner som är effektiva över ett stort frekvensområde.  
 
 ##### **λ = c/*f*** 
 
@@ -88,23 +116,33 @@ Frekvens och energi är direkt relaterade.
 
 * Låg frekvens - låg energi 
 
-#### ELEKTRISK LÄNGD 
+#### UTRÄKNING
 
-Med ovanstående formel kan vi räkna ut längden för en resonant, effektiv antenn som är *en våglängd lång*; **λ<sub>e</sub>**. En s.k. *helvågsantenn* 
+Med ovanstående formel kan vi räkna ut längden för en resonant, effektiv antenn som är en våglängd lång; λ. En s.k. helvågsantenn. Förutsatt att vi utformar antennen efter en specifik frekvens.
 
-Den [elektriska längden](https://en.wikipedia.org/wiki/Electrical_length) för en *halvvågsantenn* är hälften av helvågsantennen, dvs. **λ<sub>e</sub>/2**. 
+Längden på en antenn som ska sända på 868 MHz kan vi alltså få fram genom
 
-Längden på en antenn som ska sända på 100 MHz kan vi alltså få fram genom  
+**300 / 868 = 0,35 (meter)**
 
-##### **300/100 = 3**  
+868 MHz har alltså en våglängd på 35 cm och vår helvågsantenn ska då vara 35 cm.
 
-100 MHz har alltså en våglängd på 3 m och vår helvågsantenn ska då vara 3 m.   
+##### **FÖRKORTNINGSFAKTOR**
 
-##### **ELEKTRISK FÖRLÄNGNING** 
+Antennsystemets kompontenter, ledningsförmågan i materialet och omgivningens påverkan på signalen är saker som påverkar vågens hastighet - **våghastigheten**. 
 
-En monopolantenn matad från ena änden är resonant om den elektriska längden är lika med en kvartsvåg (λ/4), på frekvensen den används.  
+Diagram för den så kallade **förkortningsfaktorn** finns att läsa i antennhandböcker, men för enkelhetens skull kan vi räkna med att förlusten är 5%.
+
+**300 / 868 * 0.95 = 0,33**
+
+33 cm lång ska vår antenn då vara. Eller 16,5 cm om vi väljer ½ λ-utförande.
+
+#### ELEKTRISK LÄNGD   
+
+En *monopolantenn* matad från ena änden är resonant om den [*elektriska längden*](https://en.wikipedia.org/wiki/Electrical_length) är lika med en kvartsvåg (¼ λ), på frekvensen den används.  
 
 Är den kortare än så kommer den dras med kapacitiv reaktans, vilket vi inte går djupare in på än att säga att detta skapar reflektioner vilket kommer skapa problem för sändare och/eller mottagare.  
+
+##### **ELEKTRISK FÖRLÄNGNING**
 
 För att undgå detta byggs sådana antenner med en spole närmast basen - en induktor - och detta kan man ibland se på bl.a. fordon med mobiltelefonantenner, där antennen ser ut att vara skruvad i nederkant. 
 
@@ -112,59 +150,79 @@ Tillskottet av denna spole (eng. coil) till en *elektriskt kort* antenn kommer g
 
 ##### **ELEKTRISK FÖRKORTNING** 
 
-Omvänt kommer en monopolantenn LÄNGRE än λ/4 inkludera kapacitiv reaktans. En kondensator (eng. capacitor) i serie med antennen kan lösa detta problem och detta kan då kallas att *elektriskt förkorta* antennen. 
+Omvänt kommer en monopolantenn LÄNGRE än ¼ λ inkludera kapacitiv reaktans. En kondensator (eng. capacitor) i serie med antennen kan lösa detta problem och detta kan då kallas att *elektriskt förkorta* antennen.
 
-#### MEKANISK LÄNGD 
+## FREKVENSOMRÅDE 
 
-På grund av antennsystemets kompontenter och  materialval; ledningsförmågan i materialet samt våghastighet och omgivningens påverkan på signalen, räknar man när en antenn byggs med förluster. Därför skiljer man på elektrisk och mekanisk längd.  
+Tillverkning av antenner sker antingen  
 
-Den mekaniska längden (λ<sub>m</sub>) är kortare än den elektriska längden (λ<sub>e</sub>) för samma frekvens. Diagram för den s.k. förkortningsfaktorn finns att läsa i antennhandböcker, men för enkelhetens skull kan vi generellt räkna med att förlusten är 2%.  
+* Specifikt efter den frekvens de ska sända på, alltså att längden på antennen överensstämmer med λm; Hel-, halv- eller kvarstvågantenner; λ, λ/2, λ/4. 
 
-Det ger oss då formeln  
+* Bredbandigt, dvs. att de sänder och tar emot på ett större antal frekvensband. Här hittar vi bl.a. discone-antenner och logperiodiska antenner.   
 
-##### **λ = c/f * 0.98** 
+---   
 
-Använder vi exemplet med 100 MHz som ovan får vi då 
+En normal, vanlig antenn är passiv. Motsatsen till detta är en **aktiv antenn** som förstärker mottagna signaler med ett visst antal decibel. Aktiva antenner är normalt förekommande för DVB-T - marksänd digital-TV - hemma i fönstret och kopplas in i eluttaget.  
 
-##### **300/100*0,98 = 2,94 m** 
+## POLARISERING 
 
-Vi bygger då vår helvågsantenn 2,94 m lång.   
+Den elektromagnetiska strålningen har dels ett elektriskt fält och dels ett magnetiskt fält. Dessa fält är vinkelrätt orienterade mot varandra och beroende på hur fälten är riktade får vi olika polarisering. 
+
+![Högercirulär polarisering](/images/antenner-Rising_circular.gif)   
+
+`En i riktning Z högercirkulärt polariserad våg är här summan av två linjärt polariserade komponenter. Y-axeln horisontell, X-axeln vertikal.` 
+
+### LINJÄR POLARISERING 
+
+Linjär polarisering delas in i två typer: 
+
+
+* **Vertikal polarisering** - vertikalt elektriskt fält 
+
+* **Horisontell polarisering** - horisontellt elektriskt fält 
+
+![Linjär vertikal polarisering](/images/antenner-linjar-polarisation.webp)  
+`Linjär vertikal polarisering, vilket kan ses på det vertikala ELEKTRISKA fältet.`
+
+--- 
+
+Så länge radiovågorna inte reflekterats mot något under själva överföringen kommer polariseringen inte spontant att ändras, val av polarisering är alltså av mindre vikt än att sändar- och mottagarantenn har samma polarisering.  
+
+Dämpningen (signalförlusten) där exempelvis sändarantenn är horisontellt polariserad (liggande) och mottagarantenn vertikalt polariserad (stående) kan vara mer än 30 dB.   
+
+Värt att tillägga är att när man sänder på kortvåg (HF) studsar (reflekteras) radiovågorna ofta i jonosfären, något som kan ändra polariseringen. Detta är svårt att förutse varpå det kan vara bra att kunna växla mellan olika polariserade mottagarantenner.  
+
+### CIRKULÄR POLARISERING 
+
+Vid cirkulär polarisering vrider sig det polariserade planet som en skruv runt riktningsaxeln. 
+
+Cirkulär polarisering kan vara **högercirkulär** eller **vänstercirkulär**. 
+
+För radiovågor är det främst linjär polarisering som används, med undantag för rymdkommunikation eller i fall där signalen måste ta sig igenom svår terräng, då cirkulär polarisering kan användas; tänk korkskruv som penetrerar terrängen.  
+
+Ett annat exempel är videotransmission mellan kontrollenhet och FPV-drönare; den typen av flygning kännetecknas av en hög grad ackrobatik där sändare och mottagare ofta och snabbt befinner sig olika mellan det horisontella och vertikala planet, varför den cirkulära polariseringen är att föredra då signalerna alltid "hamnar rätt" nånstans längs antennen.  
+
+#### VIKTEN AV RÄTT POLARISERING  
+
+**För bästa möjliga** överföring vid cirkulär polarisering gäller att både sändar- och mottagarantenn har samma vridningsriktning.  
+
+Vilken polarisering en utsignal från en radiosändare får beror på val av antenn och hur den monteras; liggande eller stående. 
+
+Genom att varva olika polariseringar kan man nyttja frekvensspektret mer effektivt och *placera sändare närmre varandra i frekvens* utan att de stör varandra. 
+
+**Viktigt är att montera både sändar- och mottagarantennen på samma sätt**, annars kan man få en utsläckning av signalen. Jämför förlusterna vi får när en antenn vinklas eller böjs i en båge över ett fordon - DETTA SPELAR ROLL.
+
+---
 
 ## ANTENNTYPER 
-
-### ALLMÄNT 
 
 Det finns många olika varianter av antenner. Vilken antenn som ska användas för en specifik applikation beror på många faktorer, exempelvis frekvens, användningsområde och placering etc. 
 
 Fordonsmonterade antenner ämnade att ta emot FM-signaler är designade för *omnidirektionalitet (rundstrålande)* då den förväntas ta emot signaler från alla olika håll. En radiolänk däremot har som syfte att ta emot och skicka signaler i en specifik riktning, dessa kan kallas för *riktantenner* eller *riktade antenner.* 
 
-Sändande och mottagande antenn behöver nödvändigtvis inte vara av samma typ, men för att undvika signalförluster kan det vara att föredra för vissa applikationer. Något som kan vara viktigt att tänka på dock, är att antennerna bör vara lika polariserade, dvs., om en sändare sänder ut sin elektromagnetiska strålning horisontellt polariserad skall mottagande antenn också vara horisontellt polariserad - antennen ska alltså ligga ner för att uppnå horisontell polarisering.  
-*`Mer om det längre fram`*. 
+Sändande och mottagande antenn behöver nödvändigtvis inte vara av samma typ, men för att undvika signalförluster kan det vara att föredra för vissa applikationer. Något som kan vara viktigt att tänka på dock, är att antennerna bör vara lika polariserade, dvs., om en sändare sänder ut sin elektromagnetiska strålning horisontellt polariserad skall mottagande antenn också vara horisontellt polariserad - antennen ska alltså ligga ner för att uppnå horisontell polarisering.    
 
-#### STRÅLNINGSMÖNSTER 
-
-En antenn kan antingen vara *rundstrålande* (eng. omnidirectional) eller *riktstrålande* (eng. directional) - riktantenn/riktningsantenn/strålantenn.  
-
-Energin som en antenn utstrålar kan representeras av dess strålningsmönster, vilket är diagrammatiska representationer över hur den elektromagnetiska strålningen distribueras ut i fria rymden, som en funktion av riktning. 
-
-##### **RUNDSTRÅLANDE** - Low Gain Antenna (LGA) 
-
-Dipolantennen är rundstrålande då antennen strålar lika i alla horisontella riktningar runt antennen, enligt bilden nedanför.  
-
-![Strålningsmönster från en dipolantenn, vertikalt polariserad](/images/antenner-radiation-pattern-dipole-antenna-oriented-vertically-along-Z-axis.webp)   
-
-*Strålningsmönster från en vertikalt polariserad dipolantenn* 
-
-Strålningen är symmetrisk i dess azimutala riktningar, men ju närmre Z-axeln vi kommer, desto mindre strålar antennen. Detta kallas för *null* - noll - och antennen kommer inte att ta emot signaler som kommer från null-riktning. 
-
-Det är möjligt att modifiera strålningsmönstret genom antennens *gain*, för att få lober och nulls vid olika vinklar.  
-*`Mer om det längre fram`*. 
-
-##### **RIKTSTRÅLANDE** - High Gain Antenna (HGA) 
-
-För att uppnå riktverkan med en antenn behöver man justera antennens gain att ta utstråla större effekt i specifika riktningar. Detta ger ökad prestanda jämfört med rundstrålande antenner samt mindre benägen att ta upp störningar från oönskade källor.  
-
-##### **ANTENNUPPSÄTTNING** 
+### **ANTENNUPPSÄTTNING** 
 
 Flera antenner (element) anslutna till en enda mottagare eller sändare kallas *antennuppsättning* - eller *antenna array*.  
 
@@ -190,23 +248,9 @@ Yagiantennen och den log-periodiska antennen är också en form av array.
 
 ![Log-periodisk antenn med frekvensområde 250 - 2400 MHz](/images/log-periodic-antenna-250-2400-MHz.webp)  
 *`En log-periodisk antenn med frekvensområde 205 - 2400 MHz.`  
-`Den liknar yagi-udan, men är ej en yagiantenn.`*
+`Den liknar yagi-udan, men är ej en yagiantenn.`* 
 
-#### FREKVENSOMRÅDE 
-
-Tillverkning av antenner sker antingen  
-
-* Specifikt efter den frekvens de ska sända på, alltså att längden på antennen överensstämmer med λm; Hel-, halv- eller kvarstvågantenner; λ, λ/2, λ/4. 
-
-* Bredbandigt, dvs. att de sänder och tar emot på ett större antal frekvensband. Här hittar vi bl.a. discone-antenner och logperiodiska antenner.   
-
----   
-
-En normal, vanlig antenn är passiv. Motsatsen till detta är en **aktiv antenn** som förstärker mottagna signaler med ett visst antal decibel. Aktiva antenner är normalt förekommande för DVB-T - marksänd digital-TV - hemma i fönstret och kopplas in i eluttaget.   
-
-#### ANTENNTYPER 
-
-Det finns som sagt en uppsjö av olika antenner samt olika utföranden och konfiguration av dessa antenner. En komplett uttömande lista är ett inlägg i sig, men vi kan titta på några vanligt förekommande typer.  
+## EXEMPEL
 
 * **MONOPOLANTENN** - `rundstrålande` - En antenn bestående av ett spröt eller rörformad konstruktion, oftast  monterat vinkelrätt mot en konduktiv yta kallad jordplan. Antennen kan även gå under benämningen *1/4-vågsantenn*, *jordplansantenn* eller *GPA (Ground Plane Antenna)*. En *halv dipol* beter sig som en full dipol då dess reflektion i markplanet bildar den saknade delen. Markplanet kan vara naturligt, såsom land/hav, eller artificiellt som ett biltak. Kan också vara speciellt designad med horisontella eller nedåtlutande spröt i en kvartvågslängd (λ/4).[Wiki](https://en.wikipedia.org/wiki/Monopole_antenna) 
 
@@ -224,54 +268,7 @@ Det finns som sagt en uppsjö av olika antenner samt olika utföranden och konfi
 
 * **AXIAL HELIXANTENN** - Eller *spiralformad antenn*. Denna antenn producerar en cirkulär polarisering. Används för att spåra mobiler, missiler samt för rymdkommunikation. Sändaren eller mottagarens orientering är mindre relevant då polariseringsförlusten är begränsad vid cirkulär polarisering. Endast från VHF och uppåt. [Wiki](https://en.wikipedia.org/wiki/Helical_antenna) 
 
-## POLARISERING 
-
-Den elektromagnetiska strålningen har dels ett elektriskt fält och dels ett magnetiskt fält. Dessa fält är vinkelrätt orienterade mot varandra och beroende på hur fälten är riktade får vi olika polarisering. 
-
-![Högercirulär polarisering](/images/antenner-Rising_circular.gif)   
-
-`En i riktning Z högercirkulärt polariserad våg är här summan av två linjärt polariserade komponenter. Y-axeln horisontell, X-axeln vertikal.` 
-
-#### LINJÄR POLARISERING 
-
-Linjär polarisering delas in i två typer: 
-
-
-* **Vertikal polarisering** - vertikalt elektriskt fält 
-
-* **Horisontell polarisering** - horisontellt elektriskt fält 
-
-![Linjär vertikal polarisering](/images/antenner-linjar-polarisation.webp)  
-`Linjär vertikal polarisering, vilket kan ses på det vertikala ELEKTRISKA fältet.`
-
---- 
-
-Så länge radiovågorna inte reflekterats mot något under själva överföringen kommer polariseringen inte spontant att ändras, val av polarisering är alltså av mindre vikt än att sändar- och mottagarantenn har samma polarisering.  
-
-Dämpningen (signalförlusten) där exempelvis sändarantenn är horisontellt polariserad (liggande) och mottagarantenn vertikalt polariserad (stående) kan vara mer än 30 dB.   
-*`Mer om det längre fram`*. 
-
-Värt att tillägga är att när man sänder på kortvåg (HF) studsar (reflekteras) radiovågorna ofta i jonosfären, något som kan ändra polariseringen. Detta är svårt att förutse varpå det kan vara bra att kunna växla mellan olika polariserade mottagarantenner.  
-
-#### CIRKULÄR POLARISERING 
-
-Vid cirkulär polarisering vrider sig det polariserade planet som en skruv runt riktningsaxeln. 
-
-Cirkulär polarisering kan vara **högercirkulär** eller **vänstercirkulär**. 
-
-För radiovågor är det främst linjär polarisering som används, med undantag för rymdkommunikation eller i fall där signalen måste ta sig igenom svår terräng, då cirkulär polarisering kan användas; tänk korkskruv som penetrerar terrängen.  
-
-Ett annat exempel är videotransmission mellan kontrollenhet och FPV-drönare; den typen av flygning kännetecknas av en hög grad ackrobatik där sändare och mottagare ofta och snabbt befinner sig olika mellan det horisontella och vertikala planet, varför den cirkulära polariseringen är att föredra då signalerna alltid "hamnar rätt" nånstans längs antennen.  
-
-##### **VIKTEN AV RÄTT POLARISERING** 
-
-**För bästa möjliga** överföring vid cirkulär polarisering gäller att både sändar- och mottagarantenn har samma vridningsriktning.  
-
-Vilken polarisering en utsignal från en radiosändare får beror på val av antenn och hur den monteras; liggande eller stående. 
-
-Genom att varva olika polariseringar kan man nyttja frekvensspektret mer effektivt och *placera sändare närmre varandra i frekvens* utan att de stör varandra. 
-
-**Viktigt är att montera både sändar- och mottagarantennen på samma sätt**, annars kan man få en utsläckning av signalen. Jämför förlusterna vi får när en antenn vinklas eller böjs i en båge över ett fordon - DETTA SPELAR ROLL. 
+---
 
 ## TEORI 
 
@@ -364,12 +361,12 @@ Detta är normalt förknippat med uteffekten från en radiosändare och dess rel
 En handhållen kommunikationsradio med en maximal uteffekt om [5 W ligger på 37 dBm](https://en.wikipedia.org/wiki/DBm#Table_of_Examples) och en FM-radiosändare med en uteffekt på 100 kW och en sändningsräckvidd på ungefär 50 km ligger på 80 dBm. Solens totala uteffekt ligger på 3.846×10^26 W, eller 296 dBm. 
 
 | Effekt [W]                            | Effekt [dBm]                              | 
-|---------------------------------------|-------------------------------------------| 
-| 0,01 W ........................................................................| 10 dBm   | 
-| 0,1 W ..........................................................................| 20 dBm   | 
-| 1 W ............................................................................| 30 dBm   | 
-| 10 W ..........................................................................| 40 dBm   | 
-| 100 W ........................................................................| 50 dBm   |   
+|----------------------------|-----------------------------| 
+| 0,01 W | 10 dBm   | 
+| 0,1 W | 20 dBm   | 
+| 1 W | 30 dBm   | 
+| 10 W | 40 dBm   | 
+| 100 W | 50 dBm   |   
 `Observera värden anges här i watt, **INTE** milliwatt` 
 
 --- 
