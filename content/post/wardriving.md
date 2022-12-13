@@ -2,7 +2,7 @@
 title = "Wardriving"
 date = 2022-11-22T22:42:49+01:00
 
-description = "Wardriving kan till största delen kategoriseras under 'heh, det var ju lite kul'. Dataterminal går igenom vad det är och hur du kommer igång."
+description = "Wardriving - eller nätpejling - kan till största delen kategoriseras under 'heh, det var ju lite kul'. Dataterminal går igenom vad det är och hur du kommer igång."
 tags = [
     "SIGINT",
     "OSINT",
@@ -15,15 +15,15 @@ categories = [
 draft = false
 +++
 
-`Ordet Wardriving myntades kring 2001 och är en aktivitet där man med hjälp av en dator, mobiltelefon, Playstation Portable eller Nintendo DS etc. åker, går, cyklar, springer eller flyger i jakt på öppna och oskyddade WiFi-nätverk.`
+`Ordet Wardriving myntades kring 2001 och är en aktivitet där man med hjälp av en dator, mobiltelefon, Playstation Portable eller Nintendo DS etc. åker, går, cyklar, springer eller flyger i jakt på öppna och oskyddade nätverk. Den svenska benämningen är nätpejling och normalt är det någon typ av IEEE 802.11-baserat trådlöst nät som åsyftas.`
 <!--more-->
-## INLEDNING
+# NÄTPEJLING
 
-Det är varken olagligt att utföra, eller farligt för dig som äger nätverket, men kan av en hotaktör användas som ett vapen för att göra intrång i ditt system. 
+Det är varken olagligt att utföra, eller direkt farligt för dig som äger nätverket, men *kan* av en hotaktör användas som ett vapen för att göra intrång i ditt system eller som en del av kartläggning av målperson. 
 
 Det hålls tävlingar i Wardriving där man på kortast tid ska hitta så många nya nätverk som möjligt.
 
-Mer dedikerad utrustning finns givetvis tillgänglig, med ökad förmåga till intrång och avlyssning - likt denna WiFi Pineapple.
+Mer dedikerad utrustning än din smartphone finns givetvis tillgänglig, med ökad förmåga till intrång och avlyssning - likt denna WiFi Pineapple.
 
 ![Wifi Pineapple](/images/wardriving-hak5-wifi-pineapple-nano.webp)  
 *`En Wifi Pineapple från` [Hak5](https://shop.hak5.org/)*
@@ -40,9 +40,9 @@ För att skydda sig mot intrång och dataförlust kan vi vidta ett par direkta �
 * använd en VPN som krypterar din data när du ÄNDÅ använder öppna nätverk. 
 * surfa ALLTID på HTTPS och håll dig borta från HTTP. 
 * stäng av WiFi när det inte används, samt funktionen att automatiskt koppla upp sig mot öppna nätverk genom mobilen. 
-* byt namn på ditt nätverk till något som inte sticker ut, som inte är routertillverkarens standardnamn.
+* byt namn på ditt nätverk till något som inte sticker ut, som *inte* är routertillverkarens standardnamn.
 
-Anledningen till varför vi inte vill behålla routerns grundinställda namn är för att **en hotaktör med den informationen kan veta vilken typ av lösenord den routern kommer förinställd med.** Vet man att ex. Netgear använder sig av en sifferkombination med en längd av 6 tecken är det lätt att fokusera sin attack. 
+Anledningen till varför vi inte vill behålla routerns grundinställda namn är för att **en hotaktör med den informationen kan veta vilken typ av lösenord den routern kommer förinställd med.** Vet man att ex. Netgear använder sig av en sifferkombination med en längd av 6 tecken är det lätt att fokusera sin attack. Det behövs knappast nämnas att säkerhetsnivån för din router sätts på *minst* WPA2.
 
 ---
 ⚠️ `EN 6 TECKEN LÅNG SIFFERKOMBINATION ÄR ENKEL ATT CRACKA.`

@@ -16,6 +16,8 @@ Detta, tillsammans med en målsättning om mer R&D - tester och labbar - rendera
 
 ## WEBBPLATSEN
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a21eb367-0ba8-4e47-947f-d52a9e403284/deploy-status)](https://app.netlify.com/sites/dataterminal/deploys)
+
 Dataterminals erfarenhetsbank när det kommer till webdev är *begränsad*. Vill ej heller använda en av de stora plattformarna, utan vill ha en snabb sida där jag själv kan välja analytics-nivåer etc. En kravspec tillkom. 
 
 #### Kravspec:
