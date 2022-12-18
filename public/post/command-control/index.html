@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="sv-SE"><head>
+    <title>dataterminal</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Radiolära, cyber och SIGINT. Vad är frekvens och våglängd? Hur funkar modulering? Vi tittar på aktuella hotaktörer, attackvektorer och elektronisk krigföring. Var en tillgång - tråkigt vinner." />
+    <meta name="keywords" content="radio, cyber, defensiv infrastruktur, radiolära">
+
+    
+    
+    
+    <link rel="stylesheet" href="../../css/theme.min.css">
+
+    
+    
+    
+
+    
+</head>
+<body>
+        <div id="content" class="mx-auto"><header class="container mt-sm-5 mt-4 mb-4 mt-xs-1">
+    <div class="row">
+        <div class="col-sm-4 col-12 text-sm-right text-center pt-sm-4">
+            <a href="../../" class="text-decoration-none">
+                <img id="home-image" class="rounded-circle"
+                    
+                        
+                            src="../../images/avatar.png"
+                        
+                    
+                />
+            </a>
+        </div>
+        <div class="col-sm-8 col-12 text-sm-left text-center">
+            <h1 class="m-0 mb-2 mt-4">
+                <a href="../../" class="text-decoration-none">
+                    
+                        DATATERMINAL
+                    
+                </a>
+            </h1>
+            <p class="text-muted mb-1">
+                
+                    DEFENSIV INFRASTRUKTUR™
+                
+            </p>
+            <ul id="nav-links" class="list-inline mb-2">
+                
+                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="../../about/" title="om">Om</a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="../../post/" title="Artiklar">Artiklar</a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="../../categories/" title="Kategorier">Kategorier</a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="../../tags/" title="Taggar">Taggar</a>
+                    </li>
+                
+            </ul>
+            <ul id="nav-social" class="list-inline">
+                
+                    <li class="list-inline-item mr-3">
+                        <a href="http://instagram.com/datarapporteringsterminal" target="_blank">
+                            <i class="fab fa-instagram fa-1x text-muted"></i>
+                        </a>
+                    </li>
+                
+                    <li class="list-inline-item mr-3">
+                        <a href="http://twitter.com/dataterminal_" target="_blank">
+                            <i class="fab fa-twitter fa-1x text-muted"></i>
+                        </a>
+                    </li>
+                
+                    <li class="list-inline-item mr-3">
+                        <a href="mailto:%20kontakt@dataterminal.net" target="_blank">
+                            <i class="fas fa-envelope fa-1x text-muted"></i>
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+    <hr />
+</header>
+<div class="container">
+    <div class="pl-sm-2">
+        <div class="mb-3">
+            <h1 class="mb-0">Command &amp; Control</h1>
+            
+            <small class="text-muted">Published November 17, 2022</small>
+        </div>
+
+        <article>
+            Lästid: 3 minuter
+            <p><code>Denna artikel tittar på Command &amp; Control, C2.</code></p>
+<h2 id="inledning">INLEDNING</h2>
+<p>Burna C2-system har varit i ropet ett tag (se ATAK) och 2022-10-11 släppte <a href="https://foi.se/rapportsammanfattning?reportNo=FOI-R--5344--SE">FOI en rapport om försök med Systematic SitaWare Edge</a>.</p>
+<p><img src="../../images/atak-chest-rig.webp" alt="Atak Chest Rig">
+<em>Klart #tacticool med en smartphone på sin chest rig.</em></p>
+<p>Ett buret C2-system är inte be-all end-all när det gäller taktisk kommunikation, utan ett komplement till befintliga och kommande system.</p>
+<hr>
+<p>ℹ️ <code>LEDNINGSSTÖDSYSTEM ÄR BRA KOMPLEMENT TILL BEFINTLIGA SYSTEM</code></p>
+<hr>
+<h2 id="vad-är-c2">VAD ÄR C2?</h2>
+<p>C2 - Command &amp; Control - är ett ledningsstödsystem, ett geospatialt navigeringssystem och kommunikationsverktyg med applicerbara funktioner och stödfunktioner för alla nivåer inom FM; bat, komp, plut och grupp.</p>
+<hr>
+<p>ℹ️ <code>ETT C2-SYSTEMS KANSKE FRÄMSTA STYRKA ÄR UTMARKERING AV EGEN TRUPP, S.K. BLUE FORCE TRACKING.</code></p>
+<hr>
+<p>Systemet gör det möjligt att snabbt markera fientlig trupp, trupprörelser, skapa rutter etc. och (automatiskt) synka detta med alla anslutna enheter.                                                        <br>
+Ett C2-system kopplas till ett radiosystem, och beroende på val av radiosystem uppnås olika grader av räckvidd och säkerhet.</p>
+<hr>
+<p>ℹ️ <code>KOMMUNIKATION KRYPTERAD MED AES256 FÅR SES SOM FULLGOD I NULÄGET.</code></p>
+<hr>
+<p>Som alltid är det ur säkerhetssynpunkt bättre att skicka en dataskur istället för tal över radio, då tiden den elektromagnetiska strålningen befinner sig i luften minskas, varpå det blir <em>svårare</em> för motståndaren att fånga signalerna.</p>
+<hr>
+<p>⚠️ <code>ETT 100% SKYDD MOT FIENTLIG EW-VERKSAMHET ÄR OMÖJLIGT.</code></p>
+<hr>
+<p>C2-system likt SitaWare har chattfunktion.</p>
+<h2 id="vad-är-det-inte">VAD ÄR DET <em>INTE?</em></h2>
+<p>Ett C2-system fungerar INTE som kommersiellt internet. Bandbredd, hastighet och pålitlighet ligger inte på samma nivå, så det gäller att ha rätt förväntningar. Att livestreama 4K-video från RPAS eller spaningsgrupp är inte helt och hållet realistiskt.</p>
+<p>Redundans är viktigt, varför ett C2-system bör ses som ett <strong>komplement</strong>, inte en komplett lösning.</p>
+<h2 id="civil-marknad">CIVIL MARKNAD</h2>
+<p>Den på marknaden kanske mest kända applikationen för <em>situationsmedvetenhet</em> är en derivat av ATAK - ATAK CIV. Appen finns att ladda ner till Android (A:et i ATAK står för Android) samt några relevanta plug-ins, om än att de mest intressant tilläggen endast är tillgängliga för myndighetsutövare.</p>
+<hr>
+<p>ℹ️ <code>I DET CIVILA KAN MAN TÄNKA SIG ANVÄNDNINGSOMRÅDEN INOM RÄDDNING/KRISHANTERING OCH SAMORDNING.</code></p>
+<hr>
+<p>För en privatperson kan ATAK användas för exempelvis planering av vandringsrutter, men de förladdade kartorna lämnar en hel del att önska när det kommer till Sverige och jag har svårt att se hur ATAK CIV på ett vettigt och smidigt sätt kommer den stora allmänheten till nytta i nuläget, när det finns mer strömlinjeformade färdiga lösningar på marknaden.</p>
+<h2 id="vill-du-veta-mer">VILL DU VETA MER?</h2>
+<p>För den som önskar fördjupa sig i ämnet finns det resurser att inhämta via valfri sökmotor. En början kan vara att lära sig en molntjänst, antingen jättarna AWS, Azure, Google eller mindre alternativ likt Kamatera, Liquid Web etc. Amazon Lightsail kanske är en bra kompromiss mellan användarvänlighet och kostnad.</p>
+<p>Kolla in Free Tak Server och utforska Youtube. En bra idé kan vara att skaffa sig <a href="https://www.youtube.com/watch?v=HVsySz-h9r4">grundläggande kunskaper inom Git</a> då det på Github kan finnas relevanta repos ĺikt denna, <a href="https://github.com/joshuafuller/ATAK-Maps">för kartor</a>.</p>
+        </article>
+    </div>
+
+    
+
+            </div>
+        </div><footer class="text-center pb-1">
+    <small class="text-muted">
+        
+            © 2022 dataterminal
+        
+        <br>
+        Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a>
+        and <a href="https://github.com/austingebauer/devise" target="_blank">Devise</a>
+    </small>
+</footer>
+</body>
+</html>

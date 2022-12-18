@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>samband on dataterminal</title>
+    <link>/tags/samband/</link>
+    <description>Recent content in samband on dataterminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv-SE</language>
+    <copyright>© 2022 dataterminal</copyright>
+    <lastBuildDate>Sun, 27 Nov 2022 23:06:47 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/samband/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Antenner</title>
+      <link>/post/antenner/</link>
+      <pubDate>Sun, 27 Nov 2022 23:06:47 +0100</pubDate>
+      
+      <guid>/post/antenner/</guid>
+      <description>&lt;p&gt;&lt;code&gt;En radioapparat - sändare - kommer, oavsett hur tekniskt avancerad  och &amp;quot;high-end&amp;quot; den än är, aldrig kunna prestera på sin högsta nivå om den inte paras med en effektiv antenn. En väl anpassad antenn är en grundförutsättning för all radiokommunikation. Dunning–Kruger sponsrar detta inlägg.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Command &amp; Control</title>
+      <link>/post/command-control/</link>
+      <pubDate>Thu, 17 Nov 2022 08:54:12 +0100</pubDate>
+      
+      <guid>/post/command-control/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Denna artikel tittar på Command &amp;amp; Control, C2.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

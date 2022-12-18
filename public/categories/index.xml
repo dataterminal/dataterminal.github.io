@@ -2,31 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on dataterminal</title>
-    <link>https://dataterminal.github.io/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on dataterminal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-SE</language>
     <copyright>© 2022 dataterminal</copyright>
-    <lastBuildDate>Tue, 22 Nov 2022 22:42:49 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 27 Nov 2022 23:06:47 +0100</lastBuildDate>
     
-	<atom:link href="https://dataterminal.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Radiolära</title>
+      <link>/categories/radiol%C3%A4ra/</link>
+      <pubDate>Sun, 27 Nov 2022 23:06:47 +0100</pubDate>
+      
+      <guid>/categories/radiol%C3%A4ra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Intel</title>
-      <link>https://dataterminal.github.io/categories/intel/</link>
+      <link>/categories/intel/</link>
       <pubDate>Tue, 22 Nov 2022 22:42:49 +0100</pubDate>
       
-      <guid>https://dataterminal.github.io/categories/intel/</guid>
+      <guid>/categories/intel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cyber</title>
-      <link>https://dataterminal.github.io/categories/cyber/</link>
+      <link>/categories/cyber/</link>
       <pubDate>Thu, 17 Nov 2022 08:54:12 +0100</pubDate>
       
-      <guid>https://dataterminal.github.io/categories/cyber/</guid>
+      <guid>/categories/cyber/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Samband</title>
+      <link>/categories/samband/</link>
+      <pubDate>Thu, 17 Nov 2022 08:54:12 +0100</pubDate>
+      
+      <guid>/categories/samband/</guid>
       <description></description>
     </item>
     

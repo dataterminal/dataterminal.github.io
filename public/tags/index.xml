@@ -2,103 +2,202 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on dataterminal</title>
-    <link>https://dataterminal.github.io/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on dataterminal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-SE</language>
     <copyright>© 2022 dataterminal</copyright>
-    <lastBuildDate>Tue, 22 Nov 2022 22:42:49 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 27 Nov 2022 23:06:47 +0100</lastBuildDate>
     
-	<atom:link href="https://dataterminal.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>antenner</title>
+      <link>/tags/antenner/</link>
+      <pubDate>Sun, 27 Nov 2022 23:06:47 +0100</pubDate>
+      
+      <guid>/tags/antenner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>radio</title>
+      <link>/tags/radio/</link>
+      <pubDate>Sun, 27 Nov 2022 23:06:47 +0100</pubDate>
+      
+      <guid>/tags/radio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>radiolära</title>
+      <link>/tags/radiol%C3%A4ra/</link>
+      <pubDate>Sun, 27 Nov 2022 23:06:47 +0100</pubDate>
+      
+      <guid>/tags/radiol%C3%A4ra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>samband</title>
+      <link>/tags/samband/</link>
+      <pubDate>Sun, 27 Nov 2022 23:06:47 +0100</pubDate>
+      
+      <guid>/tags/samband/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>våglängd</title>
+      <link>/tags/v%C3%A5gl%C3%A4ngd/</link>
+      <pubDate>Sun, 27 Nov 2022 23:06:47 +0100</pubDate>
+      
+      <guid>/tags/v%C3%A5gl%C3%A4ngd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>frekvens</title>
+      <link>/tags/frekvens/</link>
+      <pubDate>Wed, 23 Nov 2022 00:22:20 +0100</pubDate>
+      
+      <guid>/tags/frekvens/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>modulering</title>
+      <link>/tags/modulering/</link>
+      <pubDate>Wed, 23 Nov 2022 00:22:20 +0100</pubDate>
+      
+      <guid>/tags/modulering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>osint</title>
-      <link>https://dataterminal.github.io/tags/osint/</link>
+      <link>/tags/osint/</link>
       <pubDate>Tue, 22 Nov 2022 22:42:49 +0100</pubDate>
       
-      <guid>https://dataterminal.github.io/tags/osint/</guid>
+      <guid>/tags/osint/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SIGINT</title>
-      <link>https://dataterminal.github.io/tags/sigint/</link>
+      <link>/tags/sigint/</link>
       <pubDate>Tue, 22 Nov 2022 22:42:49 +0100</pubDate>
       
-      <guid>https://dataterminal.github.io/tags/sigint/</guid>
+      <guid>/tags/sigint/</guid>
       <description></description>
     </item>
     
     <item>
       <title>wardriving</title>
-      <link>https://dataterminal.github.io/tags/wardriving/</link>
+      <link>/tags/wardriving/</link>
       <pubDate>Tue, 22 Nov 2022 22:42:49 +0100</pubDate>
       
-      <guid>https://dataterminal.github.io/tags/wardriving/</guid>
+      <guid>/tags/wardriving/</guid>
       <description></description>
     </item>
     
     <item>
       <title>WiFi</title>
-      <link>https://dataterminal.github.io/tags/wifi/</link>
+      <link>/tags/wifi/</link>
       <pubDate>Tue, 22 Nov 2022 22:42:49 +0100</pubDate>
       
-      <guid>https://dataterminal.github.io/tags/wifi/</guid>
+      <guid>/tags/wifi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cybersecurity</title>
-      <link>https://dataterminal.github.io/tags/cybersecurity/</link>
+      <link>/tags/cybersecurity/</link>
       <pubDate>Sun, 20 Nov 2022 15:51:12 +0100</pubDate>
       
-      <guid>https://dataterminal.github.io/tags/cybersecurity/</guid>
+      <guid>/tags/cybersecurity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DIY</title>
-      <link>https://dataterminal.github.io/tags/diy/</link>
+      <link>/tags/diy/</link>
       <pubDate>Sun, 20 Nov 2022 15:51:12 +0100</pubDate>
       
-      <guid>https://dataterminal.github.io/tags/diy/</guid>
+      <guid>/tags/diy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>intel</title>
-      <link>https://dataterminal.github.io/tags/intel/</link>
+      <link>/tags/intel/</link>
       <pubDate>Sun, 20 Nov 2022 15:51:12 +0100</pubDate>
       
-      <guid>https://dataterminal.github.io/tags/intel/</guid>
+      <guid>/tags/intel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>attackvektor</title>
-      <link>https://dataterminal.github.io/tags/attackvektor/</link>
+      <link>/tags/attackvektor/</link>
       <pubDate>Thu, 17 Nov 2022 08:54:12 +0100</pubDate>
       
-      <guid>https://dataterminal.github.io/tags/attackvektor/</guid>
+      <guid>/tags/attackvektor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C2</title>
+      <link>/tags/c2/</link>
+      <pubDate>Thu, 17 Nov 2022 08:54:12 +0100</pubDate>
+      
+      <guid>/tags/c2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>command &amp; control</title>
+      <link>/tags/command-control/</link>
+      <pubDate>Thu, 17 Nov 2022 08:54:12 +0100</pubDate>
+      
+      <guid>/tags/command-control/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hotaktör</title>
-      <link>https://dataterminal.github.io/tags/hotakt%C3%B6r/</link>
+      <link>/tags/hotakt%C3%B6r/</link>
       <pubDate>Thu, 17 Nov 2022 08:54:12 +0100</pubDate>
       
-      <guid>https://dataterminal.github.io/tags/hotakt%C3%B6r/</guid>
+      <guid>/tags/hotakt%C3%B6r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ledningsstöd</title>
+      <link>/tags/ledningsst%C3%B6d/</link>
+      <pubDate>Thu, 17 Nov 2022 08:54:12 +0100</pubDate>
+      
+      <guid>/tags/ledningsst%C3%B6d/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ranwomware</title>
-      <link>https://dataterminal.github.io/tags/ranwomware/</link>
+      <link>/tags/ranwomware/</link>
       <pubDate>Thu, 17 Nov 2022 08:54:12 +0100</pubDate>
       
-      <guid>https://dataterminal.github.io/tags/ranwomware/</guid>
+      <guid>/tags/ranwomware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>situationsmedvetenhet</title>
+      <link>/tags/situationsmedvetenhet/</link>
+      <pubDate>Thu, 17 Nov 2022 08:54:12 +0100</pubDate>
+      
+      <guid>/tags/situationsmedvetenhet/</guid>
       <description></description>
     </item>
     

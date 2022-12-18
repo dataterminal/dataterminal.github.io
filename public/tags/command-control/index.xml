@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>command &amp; control on dataterminal</title>
+    <link>/tags/command-control/</link>
+    <description>Recent content in command &amp; control on dataterminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv-SE</language>
+    <copyright>© 2022 dataterminal</copyright>
+    <lastBuildDate>Thu, 17 Nov 2022 08:54:12 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/command-control/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Command &amp; Control</title>
+      <link>/post/command-control/</link>
+      <pubDate>Thu, 17 Nov 2022 08:54:12 +0100</pubDate>
+      
+      <guid>/post/command-control/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Denna artikel tittar på Command &amp;amp; Control, C2.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

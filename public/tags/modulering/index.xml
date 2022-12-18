@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>modulering on dataterminal</title>
+    <link>/tags/modulering/</link>
+    <description>Recent content in modulering on dataterminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv-SE</language>
+    <copyright>© 2022 dataterminal</copyright>
+    <lastBuildDate>Wed, 23 Nov 2022 00:22:20 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/modulering/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Radiolära</title>
+      <link>/post/radiolara/</link>
+      <pubDate>Wed, 23 Nov 2022 00:22:20 +0100</pubDate>
+      
+      <guid>/post/radiolara/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Radio och dess egenskaper kan lätt ses som svart magi. Här försöker vi göra det mer lättförståeligt och tillgängligt. Vi börjar med själva radion, därefter modulering, frekvenser och vågor/våglängder.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

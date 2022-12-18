@@ -1,0 +1,674 @@
+<!doctype html>
+<html lang="sv-SE"><head>
+    <title>dataterminal</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Radiolära, cyber och SIGINT. Vad är frekvens och våglängd? Hur funkar modulering? Vi tittar på aktuella hotaktörer, attackvektorer och elektronisk krigföring. Var en tillgång - tråkigt vinner." />
+    <meta name="keywords" content="radio, cyber, defensiv infrastruktur, radiolära">
+
+    
+    
+    
+    <link rel="stylesheet" href="../../css/theme.min.css">
+
+    
+    
+    
+
+    
+</head>
+<body>
+        <div id="content" class="mx-auto"><header class="container mt-sm-5 mt-4 mb-4 mt-xs-1">
+    <div class="row">
+        <div class="col-sm-4 col-12 text-sm-right text-center pt-sm-4">
+            <a href="../../" class="text-decoration-none">
+                <img id="home-image" class="rounded-circle"
+                    
+                        
+                            src="../../images/avatar.png"
+                        
+                    
+                />
+            </a>
+        </div>
+        <div class="col-sm-8 col-12 text-sm-left text-center">
+            <h1 class="m-0 mb-2 mt-4">
+                <a href="../../" class="text-decoration-none">
+                    
+                        DATATERMINAL
+                    
+                </a>
+            </h1>
+            <p class="text-muted mb-1">
+                
+                    DEFENSIV INFRASTRUKTUR™
+                
+            </p>
+            <ul id="nav-links" class="list-inline mb-2">
+                
+                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="../../about/" title="om">Om</a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="../../post/" title="Artiklar">Artiklar</a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="../../categories/" title="Kategorier">Kategorier</a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="../../tags/" title="Taggar">Taggar</a>
+                    </li>
+                
+            </ul>
+            <ul id="nav-social" class="list-inline">
+                
+                    <li class="list-inline-item mr-3">
+                        <a href="http://instagram.com/datarapporteringsterminal" target="_blank">
+                            <i class="fab fa-instagram fa-1x text-muted"></i>
+                        </a>
+                    </li>
+                
+                    <li class="list-inline-item mr-3">
+                        <a href="http://twitter.com/dataterminal_" target="_blank">
+                            <i class="fab fa-twitter fa-1x text-muted"></i>
+                        </a>
+                    </li>
+                
+                    <li class="list-inline-item mr-3">
+                        <a href="mailto:%20kontakt@dataterminal.net" target="_blank">
+                            <i class="fas fa-envelope fa-1x text-muted"></i>
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+    <hr />
+</header>
+<div class="container">
+    <div class="pl-sm-2">
+        <div class="mb-3">
+            <h1 class="mb-0">Antenner</h1>
+            
+            <small class="text-muted">Published November 27, 2022</small>
+        </div>
+
+        <article>
+            Lästid: 25 minuter
+            <p><code>En radioapparat - sändare - kommer, oavsett hur tekniskt avancerad  och &quot;high-end&quot; den än är, aldrig kunna prestera på sin högsta nivå om den inte paras med en effektiv antenn. En väl anpassad antenn är en grundförutsättning för all radiokommunikation. Dunning–Kruger sponsrar detta inlägg.</code></p>
+<h2 id="inledning">INLEDNING</h2>
+<p>Heinrich Hertz skapade antennen 1888 och kunde då bevisa den elektromagnetiska strålningens existens.</p>
+<p>Signalen från en sändare färdas genom en transmissionskanal, dvs. antennkabeln, ex. <a href="https://en.wikipedia.org/wiki/Coaxial_cable">koaxialkabeln</a>. Signalen kan vi i det fallet kalla för en guidad våg och är <strong>elektrisk energi; en växelström som svänger i takt med sändarens frekvens</strong>.</p>
+<p>I antennen omvandlas den elektriska energin till elektromagnetisk strålning som då kan färdas genom fria rymden, alltså luften.</p>
+<p>Mottagande antenn tar sedan emot den elektromagnetiska strålningen, omvandlar den till elektrisk energi och matar den via transmissionsledningen till mottagaren.</p>
+<p><strong>Principiellt kan allting vara en antenn</strong>, så länge materialet är konduktivt, dvs. elektriskt ledande. Ett gem skulle exempelvis kunna användas för att sända och ta emot signaler.</p>
+<p>Nu är ju ett (metalliskt) gem rätt litet och har inte så många användningsområden annat än för mindre system. För sändningar som behöver färdas längre avstånd, exempelvis till rymdfarkoster tiotals miljarder kilometer bort från jorden, krävs betydligt mer avancerade system.</p>
+<p>Hela området däremellan ställer olika krav på antennernas utförande, men några generella principer är applicerbara oavsett systemstorlek och användningsområde.</p>
+<h2 id="grundläggande-principer">GRUNDLÄGGANDE PRINCIPER</h2>
+<h3 id="resonans">RESONANS</h3>
+<p>I en <em>resonant antenn</em> studsar vågorna av ström och spänning fram och tillbaka mellan antennändarna och skapar stående vågor längs elementen. <em>Monopol</em>- och <em>dipolantennen</em> är exempel på detta och denna typ av antenn kan även kallas <em>stående våg-antenn</em></p>
+<p>Motsatsen kallas <em>resande-vågsantenn</em> och där går energin som genererar den elektromagnetiska strålningen - radiovågorna - genom antennen i en (1) riktning. Exempel på antenner är här den <a href="https://en.wikipedia.org/wiki/Rhombic_antenna"><em>rombiska antennen</em></a>, den <a href="https://en.wikipedia.org/wiki/Helical_antenna"><em>axiala helixantennen</em></a> och <a href="https://en.wikipedia.org/wiki/Random_wire_antenna"><em>trådantennen</em></a>.</p>
+<p>Eftersom resande-vågsantennen är icke-resonant har den fördelen av att vara mer bandbredig än en resonant antenn, dvs. den kan hantera sändning inom ett störra frekvensområde.</p>
+<p><img src="../../images/antenner-traveling-standing-wave-radiation-pattern.webp" alt="Jämförelse mellan strålningsmönstret från en trådantenn. Stående-våg och resande-våg."></p>
+<p><em><code>Jämförelse mellan strålningsmönstret på en stående-våg och resande-våg från en trådantenn.</code> <a href="https://www.space.irfu.se/course/antenna_theory/extra/Ch10.pdf">Källa</a><code>.</code></em></p>
+<hr>
+<p>ℹ️ <code>EN ANTENN SOM ÄR BRA PÅ ATT SÄNDA ÄR ÄVEN BRA PÅ ATT TA EMOT.</code></p>
+<hr>
+<h3 id="strålningsmönster">STRÅLNINGSMÖNSTER</h3>
+<p>En antenn kan antingen vara rundstrålande (eng. omnidirectional) eller riktstrålande (eng. directional).</p>
+<p>Energin som en antenn utstrålar kan representeras av dess strålningsmönster, vilket är diagrammatiska representationer över hur den elektromagnetiska strålningen distribueras ut i fria rymden.</p>
+<p><img src="../../images/antenner-low-gain-high-gain.webp" alt="Low-gain vs. high-gain antenn"><br>
+<em><code>Low-gain vs. high-gain antenn. Notera den tillplattade formen på high-gain-antennen; mer effekt i smalare riktning.</code></em></p>
+<h4 id="rundstrålande---low-gain-antenna-lga">RUNDSTRÅLANDE - LOW-GAIN ANTENNA (LGA)</h4>
+<p>Denna antenn strålar lika i alla horisontella riktningar runt antennen, enl. vänstra bilden.</p>
+<p>Strålningen är symmetrisk i dess azimutala riktningar, men ju närmre Z-axeln vi kommer, desto mindre strålar antennen. Detta kallas för null - noll - och antennen kommer inte att ta emot signaler som kommer från null-riktning.</p>
+<h4 id="riktverkan---high-gain-antenna-hga">RIKTVERKAN - HIGH-GAIN ANTENNA (HGA)</h4>
+<p>För att uppnå riktverkan med en rundstrålande antenn behöver man justera antennens gain så den utstrålar större effekt i specifika riktningar.</p>
+<p>Detta ger ökad prestanda jämfört med rundstrålande antenner samt mindre benägen att ta upp störningar från oönskade källor.</p>
+<h4 id="riktstrålande">RIKTSTRÅLANDE</h4>
+<p>Den observante kanske lägger märke till att båda dessa exempel tycks stråla 360⁰ - alltså vara rundstrålande. <strong>Det stämmer</strong>.</p>
+<p>För att uppnå riktverkan med en dedikerad riktantenn behöver själva antennen och dess element ordnas på ett sådan sätt att dess strålning färdas primärt i önskad riktning.</p>
+<h3 id="antennlängd">ANTENNLÄNGD</h3>
+<p>Frekvens och våglängd är omvänt relaterade, dvs. <em>hög frekvens = kort våglängd och vice versa</em>. För att den <strong>transversella elektromagnetiska vågen</strong> (TEM-våg) som färdas i koaxialkabeln ska kunna lämna antennen (<em>effektivt</em>) behöver antennen vara av en längd som överensstämmer med vågens längd - våglängden.</p>
+<p>Det behöver inte var en hel våglängd, utan kan vara ex. en halv- eller kvartsvågslängd; λ, ½ λ, ¼ λ. Monteras antennelementen likt en <em>discone</em>-, <em>yagi</em>- eller <em>log-periodisk antenn</em> kan vi få bredbandiga antenner; alltså antenner som är effektiva över ett stort frekvensområde.</p>
+<h5 id="λ--cf"><strong>λ = c/<em>f</em></strong></h5>
+<ul>
+<li>
+<p>λ - Våglängd</p>
+</li>
+<li>
+<p>c - Ljusets hastighet (~300,000 kilometer/sekund)</p>
+</li>
+<li>
+<p><em>f</em> - Frekvens, mätt i MHz</p>
+</li>
+</ul>
+<p><strong>Omvänt relaterade</strong></p>
+<ul>
+<li>
+<p>Hög frekvens - kort våglängd</p>
+</li>
+<li>
+<p>Låg frekvens - lång våglängd</p>
+</li>
+</ul>
+<ul>
+<li>
+<p>Kort våglängd - hög energi</p>
+</li>
+<li>
+<p>Lång våglängd - låg energi</p>
+</li>
+</ul>
+<p><strong>Direkt relaterade</strong></p>
+<p>Frekvens och energi är direkt relaterade.</p>
+<ul>
+<li>
+<p>Hög frekvens - hög energi</p>
+</li>
+<li>
+<p>Låg frekvens - låg energi</p>
+</li>
+</ul>
+<h4 id="uträkning">UTRÄKNING</h4>
+<p>Med ovanstående formel kan vi räkna ut längden för en resonant, effektiv antenn som är en våglängd lång; λ. En s.k. helvågsantenn. Förutsatt att vi utformar antennen efter en specifik frekvens.</p>
+<p>Längden på en antenn som ska sända på 868 MHz kan vi alltså få fram genom</p>
+<p><strong>300 / 868 = 0,35 (meter)</strong></p>
+<p>868 MHz har alltså en våglängd på 35 cm och vår helvågsantenn ska då vara 35 cm.</p>
+<h5 id="förkortningsfaktor"><strong>FÖRKORTNINGSFAKTOR</strong></h5>
+<p>Antennsystemets kompontenter, ledningsförmågan i materialet och omgivningens påverkan på signalen är saker som påverkar vågens hastighet - <strong>våghastigheten</strong>.</p>
+<p>Diagram för den så kallade <strong>förkortningsfaktorn</strong> finns att läsa i antennhandböcker, men för enkelhetens skull kan vi räkna med att förlusten är 5%.</p>
+<p><strong>300 / 868 * 0.95 = 0,33</strong></p>
+<p>33 cm lång ska vår antenn då vara. Eller 16,5 cm om vi väljer ½ λ-utförande.</p>
+<h4 id="elektrisk-längd">ELEKTRISK LÄNGD</h4>
+<p>En <em>monopolantenn</em> matad från ena änden är resonant om den <a href="https://en.wikipedia.org/wiki/Electrical_length"><em>elektriska längden</em></a> är lika med en kvartsvåg (¼ λ), på frekvensen den används.</p>
+<p>Är den kortare än så kommer den dras med kapacitiv reaktans, vilket vi inte går djupare in på än att säga att detta skapar reflektioner vilket kommer skapa problem för sändare och/eller mottagare.</p>
+<h5 id="elektrisk-förlängning"><strong>ELEKTRISK FÖRLÄNGNING</strong></h5>
+<p>För att undgå detta byggs sådana antenner med en spole närmast basen - en induktor - och detta kan man ibland se på bl.a. fordon med mobiltelefonantenner, där antennen ser ut att vara skruvad i nederkant.</p>
+<p>Tillskottet av denna spole (eng. coil) till en <em>elektriskt kort</em> antenn kommer göra den till resonant, vilket ibland kallas att <em>elektriskt förlänga</em> antennen.</p>
+<h5 id="elektrisk-förkortning"><strong>ELEKTRISK FÖRKORTNING</strong></h5>
+<p>Omvänt kommer en monopolantenn LÄNGRE än ¼ λ inkludera kapacitiv reaktans. En kondensator (eng. capacitor) i serie med antennen kan lösa detta problem och detta kan då kallas att <em>elektriskt förkorta</em> antennen.</p>
+<h2 id="frekvensområde">FREKVENSOMRÅDE</h2>
+<p>Tillverkning av antenner sker antingen</p>
+<ul>
+<li>
+<p>Specifikt efter den frekvens de ska sända på, alltså att längden på antennen överensstämmer med λm; Hel-, halv- eller kvarstvågantenner; λ, λ/2, λ/4.</p>
+</li>
+<li>
+<p>Bredbandigt, dvs. att de sänder och tar emot på ett större antal frekvensband. Här hittar vi bl.a. discone-antenner och logperiodiska antenner.</p>
+</li>
+</ul>
+<hr>
+<p>En normal, vanlig antenn är passiv. Motsatsen till detta är en <strong>aktiv antenn</strong> som förstärker mottagna signaler med ett visst antal decibel. Aktiva antenner är normalt förekommande för DVB-T - marksänd digital-TV - hemma i fönstret och kopplas in i eluttaget.</p>
+<h2 id="polarisering">POLARISERING</h2>
+<p>Den elektromagnetiska strålningen har dels ett elektriskt fält och dels ett magnetiskt fält. Dessa fält är vinkelrätt orienterade mot varandra och beroende på hur fälten är riktade får vi olika polarisering.</p>
+<p><img src="../../images/antenner-Rising_circular.gif" alt="Högercirulär polarisering"></p>
+<p><code>En i riktning Z högercirkulärt polariserad våg är här summan av två linjärt polariserade komponenter. Y-axeln horisontell, X-axeln vertikal.</code></p>
+<h3 id="linjär-polarisering">LINJÄR POLARISERING</h3>
+<p>Linjär polarisering delas in i två typer:</p>
+<ul>
+<li>
+<p><strong>Vertikal polarisering</strong> - vertikalt elektriskt fält</p>
+</li>
+<li>
+<p><strong>Horisontell polarisering</strong> - horisontellt elektriskt fält</p>
+</li>
+</ul>
+<p><img src="../../images/antenner-linjar-polarisation.webp" alt="Linjär vertikal polarisering"><br>
+<code>Linjär vertikal polarisering, vilket kan ses på det vertikala ELEKTRISKA fältet.</code></p>
+<hr>
+<p>Så länge radiovågorna inte reflekterats mot något under själva överföringen kommer polariseringen inte spontant att ändras, val av polarisering är alltså av mindre vikt än att sändar- och mottagarantenn har samma polarisering.</p>
+<p>Dämpningen (signalförlusten) där exempelvis sändarantenn är horisontellt polariserad (liggande) och mottagarantenn vertikalt polariserad (stående) kan vara mer än 30 dB.</p>
+<p>Värt att tillägga är att när man sänder på kortvåg (HF) studsar (reflekteras) radiovågorna ofta i jonosfären, något som kan ändra polariseringen. Detta är svårt att förutse varpå det kan vara bra att kunna växla mellan olika polariserade mottagarantenner.</p>
+<h3 id="cirkulär-polarisering">CIRKULÄR POLARISERING</h3>
+<p>Vid cirkulär polarisering vrider sig det polariserade planet som en skruv runt riktningsaxeln.</p>
+<p>Cirkulär polarisering kan vara <strong>högercirkulär</strong> eller <strong>vänstercirkulär</strong>.</p>
+<p>För radiovågor är det främst linjär polarisering som används, med undantag för rymdkommunikation eller i fall där signalen måste ta sig igenom svår terräng, då cirkulär polarisering kan användas; tänk korkskruv som penetrerar terrängen.</p>
+<p>Ett annat exempel är videotransmission mellan kontrollenhet och FPV-drönare; den typen av flygning kännetecknas av en hög grad ackrobatik där sändare och mottagare ofta och snabbt befinner sig olika mellan det horisontella och vertikala planet, varför den cirkulära polariseringen är att föredra då signalerna alltid &ldquo;hamnar rätt&rdquo; nånstans längs antennen.</p>
+<h4 id="vikten-av-rätt-polarisering">VIKTEN AV RÄTT POLARISERING</h4>
+<p><strong>För bästa möjliga</strong> överföring vid cirkulär polarisering gäller att både sändar- och mottagarantenn har samma vridningsriktning.</p>
+<p>Vilken polarisering en utsignal från en radiosändare får beror på val av antenn och hur den monteras; liggande eller stående.</p>
+<p>Genom att varva olika polariseringar kan man nyttja frekvensspektret mer effektivt och <em>placera sändare närmre varandra i frekvens</em> utan att de stör varandra.</p>
+<p><strong>Viktigt är att montera både sändar- och mottagarantennen på samma sätt</strong>, annars kan man få en utsläckning av signalen. Jämför förlusterna vi får när en antenn vinklas eller böjs i en båge över ett fordon - DETTA SPELAR ROLL.</p>
+<hr>
+<h2 id="antenntyper">ANTENNTYPER</h2>
+<p>Det finns många olika varianter av antenner. Vilken antenn som ska användas för en specifik applikation beror på många faktorer, exempelvis frekvens, användningsområde och placering etc.</p>
+<p>Fordonsmonterade antenner ämnade att ta emot FM-signaler är designade för <em>omnidirektionalitet (rundstrålande)</em> då den förväntas ta emot signaler från alla olika håll. En radiolänk däremot har som syfte att ta emot och skicka signaler i en specifik riktning, dessa kan kallas för <em>riktantenner</em> eller <em>riktade antenner.</em></p>
+<p>Sändande och mottagande antenn behöver nödvändigtvis inte vara av samma typ, men för att undvika signalförluster kan det vara att föredra för vissa applikationer. Något som kan vara viktigt att tänka på dock, är att antennerna bör vara lika polariserade, dvs., om en sändare sänder ut sin elektromagnetiska strålning horisontellt polariserad skall mottagande antenn också vara horisontellt polariserad - antennen ska alltså ligga ner för att uppnå horisontell polarisering.</p>
+<h3 id="antennuppsättning"><strong>ANTENNUPPSÄTTNING</strong></h3>
+<p>Flera antenner (element) anslutna till en enda mottagare eller sändare kallas <em>antennuppsättning</em> - eller <em>antenna array</em>.</p>
+<p><img src="../../images/antenner-nebo-m-mobile-multiband-planar-array.webp" alt="Nebo-M VHF phased array mobil luftförsvarsradar"></p>
+<p><em><code>Nebo-M phased array mobil luftförsvarsradar. Består av 175 vikta dipolantenner</code></em>. <a href="http://vitalykuzmin.net/?q=node/469">Vitaly V. Kuzmin</a>.</p>
+<p>En antennuppsättning kan uppnå högre gain (riktverkan) än ett ensamt element. Dessa typer ses vanligtvis i radaranläggningar i form av phased array-antenner; varje antennelement har sin egen förstärkare och genom att fasförskjuta signalerna kan radarstrålen riktas utan att själva antennen rör sig, vilket är ett mycket snabbare sätt än att fysiskt flytta antennen.</p>
+<p>Tekniken utvecklades för radar men har genom åren fått utökade användningsområden såsom TV-sändningar, rymdkommunikation, väderforskning och kommersiella system likt 5G och WiFi; vissa typer av WiFi-routrar erbjuder <a href="https://hackaday.com/2017/01/05/visualization-of-a-phased-array-antenna-system/">Multiple-Input Multiple-Output (MIMO)</a> och <em>beam forming</em>-teknik som är en av 4 normalt förekommande typer av antennuppsättningar:</p>
+<ol>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Passive_electronically_scanned_array">Passive Electronically Steered Array (PESA)</a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Active_electronically_scanned_array">Active Electronically Steered Array (AESA)</a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Beamforming#Digital,_analog,_and_hybrid">Digital Beam Forming (DBF)</a></p>
+</li>
+<li>
+<p>Hybrid Beam Forming (HBF)</p>
+</li>
+</ol>
+<p>Beam Forming riktar signalen till användande enheter och kan maximera och effektivisera länken.</p>
+<p>Yagiantennen och den log-periodiska antennen är också en form av array.</p>
+<p><img src="../../images/log-periodic-antenna-250-2400-MHz.webp" alt="Log-periodisk antenn med frekvensområde 250 - 2400 MHz"><br>
+<em><code>En log-periodisk antenn med frekvensområde 205 - 2400 MHz.</code><br>
+<code>Den liknar yagi-udan, men är ej en yagiantenn.</code></em></p>
+<h2 id="exempel">EXEMPEL</h2>
+<ul>
+<li>
+<p><strong>MONOPOLANTENN</strong> - <code>rundstrålande</code> - En antenn bestående av ett spröt eller rörformad konstruktion, oftast  monterat vinkelrätt mot en konduktiv yta kallad jordplan. Antennen kan även gå under benämningen <em>1/4-vågsantenn</em>, <em>jordplansantenn</em> eller <em>GPA (Ground Plane Antenna)</em>. En <em>halv dipol</em> beter sig som en full dipol då dess reflektion i markplanet bildar den saknade delen. Markplanet kan vara naturligt, såsom land/hav, eller artificiellt som ett biltak. Kan också vara speciellt designad med horisontella eller nedåtlutande spröt i en kvartvågslängd (λ/4).<a href="https://en.wikipedia.org/wiki/Monopole_antenna">Wiki</a></p>
+</li>
+<li>
+<p><strong>DIPOLANTENN</strong> - <code>rundstrålande</code> - En antenn formad som ett stående eller liggande T, där foten är koaxialkabeln och taket är två spröt (två kvartvågselement), vars totala längd motsvarar en halv vågländ eller en jämn multipel av λ/2. En 1/2-vågsantenn är en komplett elektrisk krets medan en 1/4-vågsantenn inte är det. En komplett krets behöver inget jordplan, således är dipolantenner <em>jordplanlösa</em>. En antenn bestående av två korslagda dipolantenner kallas <em>vändkorsantenn</em>. <a href="https://en.wikipedia.org/wiki/Dipole_antenna">Wiki</a></p>
+</li>
+<li>
+<p><strong>YAGIANTENN</strong> - <code>riktad</code> - Den klassiska TV-antennen alla är bekanta med. Består av en reflektor längst bak, därefter en dipol samt ett antal direktorer som sitter framför dipolen i riktning mot sändaren (vid mottagning) eller mottagaren (vid sändning). <a href="https://en.wikipedia.org/wiki/Yagi%E2%80%93Uda_antenna">Wiki</a></p>
+</li>
+<li>
+<p><strong>LOG-PERIODISK ANTENN</strong> - <code>riktad</code> - Denna antenns specifika syfte är att ha stor bandbredd. Dess praktiska bandbredd styrs av storleken på dess största komponenter (för låga frekvenser) och hur små de minsta elementen är (för de höga frekvenserna). Den liknar Yagiantenn och kan ses som att man kopplat ihop flera Yagi till en. <a href="https://en.wikipedia.org/wiki/Log-periodic_antenna">Wiki</a></p>
+</li>
+<li>
+<p><strong>BIKONISK ANTENN</strong> - <code>riktad</code> - En modifierad typ av dipol där de två spröten ersatts av flera spröt, i en konisk form. Detta ger större bandbredd jmf. med vanlig dipol. Typiskt frekvensområde är 20 - 300 MHz men kan designas att användas upp till 18 GHz. <a href="https://en.wikipedia.org/wiki/Biconical_antenna">Wiki</a></p>
+</li>
+<li>
+<p><strong>HORNANTENN</strong> - <code>riktad</code> - Populär antenn för UHF-bandet (300 MHz - 3 GHz) och högre. Har ofta ett riktat strålningsmönster. Eftersom dessa antenner inte har några resonanta element kan de verka  över ett brett frekvensområde (ex. mellan 1 GHz - 20 GHz). En ackustisk hornantenn kallar vi för megafon. Hornantenner kommer i många olika utföranden; koniska, trattformade, E-plan, H-plan, exponentiella etc. <a href="https://en.wikipedia.org/wiki/Horn_antenna">Wiki</a></p>
+</li>
+<li>
+<p><strong>PARABOLANTENN</strong> - <code>riktad</code> - Parabolen är ingen antenn i sig, utan en reflektor som matar en - vanligtvis - <em>hornantenn</em>. Används främst till satellitmottagning och fasta radiolänkar, eller som spaningsradarantenner. Parabolen som sänder data till Voyager 1 och 2 har en diameter på ~70 m och en maximal effekt av 400kW. <a href="https://en.wikipedia.org/wiki/Parabolic_antenna">Wiki</a></p>
+</li>
+<li>
+<p><strong>AXIAL HELIXANTENN</strong> - Eller <em>spiralformad antenn</em>. Denna antenn producerar en cirkulär polarisering. Används för att spåra mobiler, missiler samt för rymdkommunikation. Sändaren eller mottagarens orientering är mindre relevant då polariseringsförlusten är begränsad vid cirkulär polarisering. Endast från VHF och uppåt. <a href="https://en.wikipedia.org/wiki/Helical_antenna">Wiki</a></p>
+</li>
+</ul>
+<hr>
+<h2 id="teori">TEORI</h2>
+<p>Många böcker är skrivna om antennteori, som är ett ämne där Dunning-Kruger ständigt gör sig påmind. Man behöver dock inte vara fysiker för att dra nytta av några koncept. Texten nedan är att ses som en grov förenkling och vill man verkligen förstå detta på djupet får man dedikera tid till att lära sig detta; läsa böcker och nyttja sökmotorer.</p>
+<h3 id="decibel">DECIBEL</h3>
+<p>Decibel förknippas vanligtvis med ljud och ljudintensitet, men i radions värld visar det bl.a. <em>signalstyrkan</em> i kablar eller en antenns <em>gain</em>.</p>
+<p>Decibel <strong>[dB]</strong> är ett logaritmiskt mått och används för att ange ett förhållande till ett referensvärde. 0 dB innebär att värdet motsvarar referensnivån, därefter kan en <a href="https://sv.wikipedia.org/wiki/Decibel">effektförändringstabell</a> visa den logaritmiska ökningen.</p>
+<table>
+<thead>
+<tr>
+<th>Ökning i [dB]</th>
+<th>X högre än referensnivå</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0 dB</td>
+<td>Motsvarar referensnivån</td>
+</tr>
+<tr>
+<td>3 dB</td>
+<td>X2</td>
+</tr>
+<tr>
+<td>10 dB</td>
+<td>X10</td>
+</tr>
+<tr>
+<td>20 dB</td>
+<td>X100</td>
+</tr>
+<tr>
+<td>30 dB</td>
+<td>X1000</td>
+</tr>
+</tbody>
+</table>
+<p><code>Omvänt gäller lika;</code><br>
+<code>-3 dB är halva referensnivån.</code><br>
+<code>-10 dB är 1/10 av referensnivån.</code></p>
+<hr>
+<h3 id="gain">GAIN</h3>
+<p>Antennvinsten, dess <em>gain</em>, kan beskrivas som ökningen - <em>förstärkningen</em> - av en signals effekt, ofta uttryckt i decibel - <strong>[dB]</strong>.</p>
+<p>Antennvinsten fås fram genom att jämföra mot en referensantenn som normalt antingen är en s.k. <em>isotropisk antenn</em> eller halvvågsdipol.</p>
+<p>En isotropisk antenn är en <strong>teoretisk antenn</strong> som utstrålar lika kraft i alla tre dimensioner och ska inte förväxlas med en vanlig rundstrålande antenn, som bekant utstrålar i dess horisontella riktning (varierande effekt med höjdvinkeln) och minskar till noll i antennens förlängning.</p>
+<p>Värt att notera är att en antenn, till skillnad från en förstärkare - amplifier - inte har en kraftkälla som tillåter antennen skapa extra effekt för att förstärka signalen; en antenn är jämförbar med en reflektiv lins här, i att den tar tillgänglig energi från källan och fokuserar den över ett brett eller smalt område.</p>
+<h4 id="dbi---antennförstärkning"><strong>dBi</strong> - ANTENNFÖRSTÄRKNING</h4>
+<p>Decibel i förhållande till en <em>isotropisk strålningskälla</em>. <strong>[dBi]</strong> berättar hur mycket en antenn förstärker den inmatade signalen i förhållande till en referensantenn som i detta fall är den <strong>teoretiska</strong> isotropiska antennen.</p>
+<p>Ju högre <strong>[dBi]</strong> desto kraftigare förstärkning. Ett högre <strong>[dBi]</strong> betyder också en mer framskjuten gain. Mer framskjuten gain betyder högre signalstyrka, men i en smalare riktning, dvs. inte lika rundstrålande.</p>
+<p>Jämför med en ficklampa där du kan justera ljuskäglan;</p>
+<ul>
+<li>Låg gain - bred ljuskägla</li>
+<li>Hög gain - fokuserad ljusstråle</li>
+</ul>
+<hr>
+<p>⚠️ <code>UPPEHÅLL DIG INTE I ONÖDAN NÄRA EN AKTIV ANTENN.</code><br>
+<code>UPPEHÅLL DIG ALDRIG I RIKTANTENNENS SÄNDNINGSRIKTNING</code></p>
+<hr>
+<p>Den isotropa antennen har 0 dBi, det är referensnivån. En antenn som har 0 dBi sägs ha &ldquo;ingen gain&rdquo;, men kom ihåg att detta bara är en teoretisk antenn.</p>
+<p>I avsnittet om <strong>strålningsmönster</strong> såg vi hur strålningen från en antenn bredde ut sig. Den isotropa antennens strålningsmönster är en helt rund sfär, dvs. lika mycket energi i alla riktningar. Det betyder, att om våran riktiga antenn har en gain på 2.1 dBi så kan den fokusera den energin - 2.1 dB mer signalstyrka - någonstans på antennens sfäriska strålningsmönster jämfört med den isotropiska strålningskällans starkaste punkt.</p>
+<hr>
+<p>ℹ️ <code>LÄGRE GAIN I BERGIG TERRÄNG KOMMER GE BÄTTRE TÄCKNING.</code><br>
+<code>HÖGRE GAIN ÖVER PLAN TERRÄNG KOMMER GE BÄTTRE TÄCKNING.</code></p>
+<hr>
+<p><img src="../../images/dbi-comparison-terrain-flat.webp" alt="Jämförelse mellan hög och låg dbi i bergig respektive plan terräng"><br>
+<em><code>Hög och låg gain i terräng.</code></em></p>
+<h4 id="dbd---antennförstärkning"><strong>dBd</strong> - ANTENNFÖRSTÄRKNING</h4>
+<p>Använder man sig istället av en dipol som referensantenn, som ju faktiskt är en riktig antenn, används istället <strong>[dBd]</strong>.</p>
+<p>En referensdipol är satt att ha en gain på 2.15 dBi, så för att konvertera mellan <strong>[dBi]</strong> och <strong>[dBd]</strong> adderar eller subtraherar man enligt</p>
+<ul>
+<li>[dBi] = [dBd] + 2.15</li>
+<li>[dBd] = [dBi] - 2.15</li>
+</ul>
+<p>Att specificera sin antenn i <strong>[dBd]</strong> betyder att antennen ifråga kan fokusera sin energi X dB mer än en dipol i <em>någon riktning</em>.</p>
+<h3 id="elektrisk-signalstyrka">ELEKTRISK SIGNALSTYRKA</h3>
+<p>Elektrisk signalstyrka mäts antingen i <strong>[dBd]</strong> eller <strong>[mW]</strong> och förhållandet mellan de två skrivs som</p>
+<p><strong>1 mW = 0 dBm</strong></p>
+<p>Detta är normalt förknippat med uteffekten från en radiosändare och dess relation till 1 mW.</p>
+<p>3 dBm motsvarar som bekant en dubblering av uteffekten (30 dBm motsvarar därmed 1 W, 33 dBm 2 W).</p>
+<p>En handhållen kommunikationsradio med en maximal uteffekt om <a href="https://en.wikipedia.org/wiki/DBm#Table_of_Examples">5 W ligger på 37 dBm</a> och en FM-radiosändare med en uteffekt på 100 kW och en sändningsräckvidd på ungefär 50 km ligger på 80 dBm. Solens totala uteffekt ligger på 3.846×10^26 W, eller 296 dBm.</p>
+<table>
+<thead>
+<tr>
+<th>Effekt [W]</th>
+<th>Effekt [dBm]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0,01 W</td>
+<td>10 dBm</td>
+</tr>
+<tr>
+<td>0,1 W</td>
+<td>20 dBm</td>
+</tr>
+<tr>
+<td>1 W</td>
+<td>30 dBm</td>
+</tr>
+<tr>
+<td>10 W</td>
+<td>40 dBm</td>
+</tr>
+<tr>
+<td>100 W</td>
+<td>50 dBm</td>
+</tr>
+<tr>
+<td><code>Observera värden anges här i watt, **INTE** milliwatt</code></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h4 id="effektiv-utstrålad-effekt">EFFEKTIV UTSTRÅLAD EFFEKT</h4>
+<p>Om man vet <strong>[dB]</strong> eller <strong>[W]</strong> på sin utrustning kan man räkna ut den utstrålade effekten från antennen (Effecive Radiated Power - ERP). Den <em>effektiva utstrålade effekten</em> är den effekt sändarantennen utstrålar <strong>i sin bästa sändningsriktning</strong>.</p>
+<p>Ett enkelt exempel med en sändare på 1 W.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th align="right"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Radiosändare 1 W</td>
+<td align="right">30 dB</td>
+</tr>
+<tr>
+<td>Antenn</td>
+<td align="right">6 dBi gain</td>
+</tr>
+<tr>
+<td>Antennkabel</td>
+<td align="right">3 dBi dämpning</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>30 + 6 - 3 = 33 [dBm]</strong></p>
+<p>33 dBm är 3 dB mer än 30 dBm, <strong>alltså dubbelt så mycket</strong>. Den utstrålade effekten från 1 W radiosändaren är alltså 2 W i dess bästa sändningsriktning.</p>
+<h5 id="sammanfattning"><strong>SAMMANFATTNING</strong></h5>
+<p><strong>[dBi]</strong> och <strong>[dBd]</strong> är alltså hur mycket gain - <em>antennvinst</em> - en antenn tillför en signal relativt en referensantenn, i en specifik riktning, medan <strong>[dBm]</strong> är mängden relativ effekt som sänds ut av en sändare - alltså kraft.</p>
+<p>En antenn som utstrålar lika mycket energi i alla riktningar sägs ha &ldquo;ingen gain&rdquo;; det är 0 dBi. Kom ihåg att den isotropiska antennen bara är en teoretisk antenn som används som referens. 0 dBi är inte fysiskt möjligt.</p>
+<hr>
+<p>ℹ️ <code>GAIN FÖRSTÄRKER INTE SIGNALEN TOTALT SETT, UTAN TAR STYRKAN FRÅN EN STRÅLNINGSRIKTNING OCH KONCENTRERAR DEN TILL EN ANNAN STRÅLNINGSRIKTNING. </code></p>
+<hr>
+<p><img src="../../images/antenner-antenna-reception.webp" alt="Jämförelse mellan olika gain i dBi"><br>
+<em><code>Jämförelse mellan olika gain i dBi</code><br>
+<code>Èj att ses som exakta värden</code></em></p>
+<h3 id="mottagarkänslighet">MOTTAGARKÄNSLIGHET</h3>
+<p>Vi har hittills fokuserat på signaltransmission från sändarens perspektiv, men <strong>[dBi]</strong> och <strong>[dBm]</strong> gäller även hos signalmottagaren och, när man talar om känsligheten hos en mottagare, specifikt <strong>[dBm]</strong>.</p>
+<p>För mottagning av signal gäller negativ <strong>[-dBm]</strong> - ju lägre desto bättre, eftersom vi vill att vår mottagare ska kunna fånga upp så svaga signaler som möjligt. Alltså, -40 dBm är bättre än -90 dBm.</p>
+<p>Känsligheten hos olika mottagare varierar och olika standarder har olika krav på känsliget, normalt mellan -50 till -100 dBm.</p>
+<p><strong>0 dBm skulle innebära 100% känslighet, vilket är en omöjlighet.</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th align="right"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bluetooth</td>
+<td align="right">-70 dBm till -100 dBm</td>
+</tr>
+<tr>
+<td>WiFi</td>
+<td align="right">-40 dBm till -80 dBm</td>
+</tr>
+<tr>
+<td>Mobiltelefoni</td>
+<td align="right">upp till -120 dBm</td>
+</tr>
+<tr>
+<td>GNSS</td>
+<td align="right">-140 toill -165 dBm</td>
+</tr>
+<tr>
+<td><code>Olika generella systemkrav</code></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p>Dessa värden är direkt kopplade till exempelvis hur du visas signalstyrkan på ditt lokala trådlösa nätverk - <a href="https://en.wikipedia.org/wiki/Received_signal_strength_indication">Received Signal Strength Indicator - RSSI</a>.</p>
+<p>Några generella riktlinjer för hur du kan läsa signalstyrkan, med nyanser beroende på aktuell utrustning och omgivning, vilket kan vara relevant för att avgöra bästa placering av din elektroniska utrustning:</p>
+<ul>
+<li><strong>Lägre än -30 dBm:</strong> för bra för att vara sant, eller signalmättning (inte bra).</li>
+<li><strong>-30 dBm:</strong> bästa möjliga signal.</li>
+<li><strong>-50 dBm:</strong> utmärkt signal.</li>
+<li><strong>-60 dBm:</strong> väldigt bra signals.</li>
+<li><strong>-65 dBm:</strong> bra, stabil signal. Hittills har du haft fulla staplar.</li>
+<li><strong>-70 dBm:</strong> gränsen för när du tappat en pinne, på väg att tappa en till om det inte redan skett. Fortfarande stabil uppkopling.</li>
+<li><strong>-75 dBm:</strong> börjar bli problematiskt, men kanske fortfarande användbar.</li>
+<li><strong>-80 dBm:</strong> gränsar till värdelöst - en (1) stapel kvar.</li>
+<li><strong>-90 dBm:</strong> svag signal, (nästan) omöjlig att koppla  upp sig emot routern.</li>
+<li><strong>Högre än -90 dBm:</strong> glöm det.</li>
+</ul>
+<hr>
+<p>ℹ️ <code>NOTERA ATT DET ÄR SIGNALSTYRKAN I [dBm] DU SKA MÄTA OCH JÄMFÖRA, INTE ANTALET STAPLAR VILKET ÄR VÄLDIGT GODTYCKLIGT MELLAN TILLVERKARE OCH MODELLER.</code></p>
+<p><code>NOTERA OCKSÅ ATT UPPDATERINGSFREKVENSEN FÖR SIGNALSTYRKAN INTE ALLTID SKER I REALTID, UTAN KAN VARA SLÄPANDE UPP TILL 1 MINUT</code></p>
+<hr>
+<h4 id="wifi">WIFI</h4>
+<p>En WiFi-router har typiskt en uteffekt av 0,1 W på 2,45 GHz-bandet och 0,2 W på 5 GHz-bandet.</p>
+<p>0,1 W är 20 dBm och 0,2 är dubbelt så mycket, alltså en ökning av 3 dB vilket ger att 5 GHz-bandet sänder med en uteffekt av 23 dBm.</p>
+<p>Förlusten för en WiFi-signal (kanal 9; 2.452 GHz) som färdas i fria rymden 100 m är ~80 dB. På det avståndet är alltså signalstyrkan – när den når mottagaren - -60 dBm. Passerar signalen fasta objekt såsom väggar, glasrutor etc., är det en helt annan sak, dvs. högre förluster.</p>
+<p>Detta tydliggör vikten av en mottagare - en bra antenn - med hög känslighet. Kom ihåg, decibel är en logaritmisk skala, så skillnaden mellan en mottagare som har en känslighet på -100 dBm och en med -106 dBm är stor.</p>
+<hr>
+<p>ℹ️ <code>NOTERA ATT HÖGSTA TILLÅTNA UTEFFEKT VARIERAR MELLAN LÄNDER SAMT WIFI-STANDARD</code></p>
+<hr>
+<h3 id="länkbudget">LÄNKBUDGET</h3>
+<p>Länkbudget är summan av alla vinster och förluster en signal utsätts för; från sändaren via transmissionsmediumet (fria rymden, kablage etc.) till mottagaren.</p>
+<p><strong>Det är en ekvation som ger mottagen signalstyrka i [dBm]</strong> efter att den utstrålade signalen försvagats genom vågutbredning, <em>dämpning</em> i koaxialkablar och andra förluster, samt förstärkning genom antennvinst (gain), förstärkare i mottagaren och eventuella repetrar signalen passerat genom.</p>
+<p>Det är ett verktyg som hjälper till att säkerställa att ett system kan fungera tillräckligt effektivt, med tillräcklig hörbarhet och dataöverföringssäkerhet och en godtagbar <em>SNR</em> (Signal-to-Noise-Ratio)</p>
+<p>En <strong>enkel</strong> länkbudgetekvation är:</p>
+<h5 id="signalstyrka-dbm--sändareffekt-dbm--vinster-db--förluster-db"><strong>Signalstyrka [dBm] = sändareffekt [dBm] + vinster [dB] – förluster [dB]</strong></h5>
+<hr>
+<p>ℹ️ <code>DET SÄNDAREFFEKTEN ÖVERSTIGER MOTTAGARENS KÄNSLIGHET KALLAS LÄNKMARGINAL.</code></p>
+<hr>
+<h3 id="dämpning">DÄMPNING</h3>
+<p>Kablar, filter, kopplingar och vågutbredning innebär <em>signaldämpning</em>. Det innebär att man tappar energi i förhållande till den tillförda energin och detta uttrycks vanligen i decibel - <strong>[dB]</strong>.</p>
+<h4 id="snr">SNR</h4>
+<p>Förhållandet mellan signaleffekt och den bruseffekt som påverkar signalen negativt. Detta förkortas SNR eller S/N, vilket kommer från engelskans Signal-to-Noise Ratio.</p>
+<p>För en mottagare är detta förhållandet mellan den önskade signalen och nivån på bakgrundsbruset som mottagaren genererar.</p>
+<p>Detta är ett sätt att mäta känsligheten i en mottagare där ju lägre SNR desto bättre då mottagande station inte genererar så mycket brus. En ratio högre än 1:1 (0 dB) indikerar mer signal än brus.</p>
+<p>Anges ofta även i [dB] och räknas då signal minus brus. Är signalnivån 45 dB och bruset 22 dB är alltså SNR 22 dB.</p>
+<h4 id="impedans">IMPEDANS</h4>
+<p><strong>Elektrisk anpassning mellan sändare och antenn</strong> är viktigt för att få ett så pass effektivt sändarsystem som möjligt. Ett dåligt anpassat system kommer göra att en del av effekten, istället för att strålas ut från antennen omvandlas till värme som, beroende på VAR den alstras kan orsaka skador på sändaren.</p>
+<p>Moderna sändare kan ha inbyggt skydd för detta, som begränsar sändareffekten när missanpassningen blir för stor.</p>
+<p>I början av artikeln klargjorde vi att en bra (effektiv) sändarantenn även är en bra mottagarantenn. Skillnaden är att en dåligt anpassad mottagarantenn INTE kommer skada mottagaren, utan bara göra att man hör sämre.</p>
+<hr>
+<p>Antenn och matningskabel måste vara impedansanpassade till varandra för att det inte ska uppstå vågreflektion i anslutningen och följaktligen värmealstring.</p>
+<p>Impedansmatchning sker antingen för en specifik frekvens eller bredbandigt. Då det generellt sett inte är möjligt att matcha för ett brett frekvensspektra ställer det olika krav.</p>
+<p>För en specifik frekvens är det enklare; korrekt antennlängd, korrekt koaxialkabel och ett enklare filter. En bredbandig matchning kräver multisektionella filter.</p>
+<h4 id="ståendevåg--swr">STÅENDEVÅG &amp; SWR</h4>
+<p>I ett radiosystem har alla transmissionsledningar, sändare och antenner en impedans. 50 ohm är ett vanligt impedansvärde i ett radiosystem och för att säkerställa max effektöverföring från källan - sändaren - genom koaxialkabeln och ut genom antennen måste komponenternas impedans matcha.</p>
+<p>Om impedansen <strong>inte</strong> matchar, vilket den inte alltid gör, så kommer inte all effekt levereras ut genom antennen. Eftersom energi inte kan förstöras (termodynamikens andra huvudsats) måste den ta vägen nånstans; den kommer då börja vandra tillbaka längs ledningen, mot sändaren, med samma amplitud och frekvens som utgående signal - <em>resandevågen</em>.</p>
+<p><img src="../../images/antenner-standing-wave.gif" alt="Ståendevåg"><br>
+<em><code>Ståendevåg (röd) skapad av överlagringen</code>
+<code>av en våg som färdas vänster (blå) och en våg som färdas höger (grön).</code> <a href="https://commons.wikimedia.org/w/index.php?curid=39309437">Källa</a></em></p>
+<p>När det händer kommer den elektriska spänningen och laddningen hos resandevågen och den reflekterade vågen ta ut varandra på olika punkter längs ledningen vilket resulterar i ståendevågor och effektförluster.</p>
+<hr>
+<p>För att veta om ens system uppnått en god impedansmatchning har vi något som kallas <strong>SWR</strong> - <a href="https://en.wikipedia.org/wiki/Standing_wave_ratio">Standing Wave Ratio</a> eller stående-vågförhållande - SVF.</p>
+<p><strong>Stående-vågförhållande (SVF) är förhållandet mellan avgiven och reflekterad elektromagnetisk energi i ett antennsystem</strong>.</p>
+<p><img src="../../images/antenner-swr-meter.webp" alt="En SWR-mätare används för att mäta SWR"><br>
+<em><code>En SWR-mätare</code></em></p>
+<ul>
+<li><strong>SWR 1.0 - 1.4:</strong> Idealiskt.</li>
+<li><strong>SWR 1.5 - 1.9:</strong> Utrymme för förbättring.</li>
+<li><strong>SWR 2.0 - 2.4:</strong> Inte bra, men kommer troligtvis inte skada utrustningen.</li>
+<li><strong>SWR 2.5 - 2.9:</strong> Noterbara effektförluster med risk att utrustning skadas. Undvik att använda radion.</li>
+<li><strong>SWR 3.0:</strong> Allvarliga effektförluster med nästintill garanterad skada på utrustning. <strong>Använd inte radion.</strong></li>
+</ul>
+<hr>
+<p>⚠️ <code>SWR &lt;1 INDIKERAR ATT MÄTAREN, ANTENNEN ELLER RADION ÄR DEFEKT.</code></p>
+<p><a href="https://www.wearecb.com/what-is-swr.html">Mer om SWR</a></p>
+<hr>
+<hr>
+<p>ℹ️ <code>NOTERA ATT DET ENDAST ÄR SÄNDNING SOM KAN SKADA UTRUSTNINGEN NÄR SWR-VÄRDET ÄR HÖGT. ATT TA EMOT SIGNALER ÄR OFARLIGT.</code></p>
+<hr>
+<h2 id="kringutrustning">KRINGUTRUSTNING</h2>
+<p>En antenn är mer eller mindre obrukbar om den inte på något sätt kopplas till en sändare/mottagare.</p>
+<p>För ändamålet finns ett flertal olika kontakter och kablar som erbjuder olika egenskaper och lämpar sig för olika applikationer.</p>
+<p>Kravet på interna komponenter och kretsar i radiosystemen har ökat under 2000-talet till följd av ökade dataöverföringshastigheter och bandbredd, kablage och kontakter är inget undantag.</p>
+<h3 id="antennkontakter">ANTENNKONTAKTER</h3>
+<p>Kontaktens primära uppgift är att se till att signalen som färdas från koaxialkabeln till antennen kan göra det till en så exakt impedansmatchning som möjligt, med minimala förluster och med kabelns skärmning bibehållen.</p>
+<p><a href="https://en.wikipedia.org/wiki/List_of_RF_connector_types">Det finns många olika typer</a> beroende på applikation och användningsområde; väderskydd, storlekskrav etc.</p>
+<p>Kontakterna kopplas samman bl.a. genom skruv-/bajonettfattning eller pressas ihop enligt hane-hona. Vilken typ av fastlåsning som ska användas bestäms bl.a. av hur ofta kopplingen bedöms komma att kopplas, alltså <em>sammankopplingscykler</em> samt hur mycket kraft man kommer att behöva använda; handkraft, verktyg.</p>
+<p>En vanlig SMA-kontakt bedöms exempelvis klara upp till 500 sammankopplingscykler innan man börjar se <a href="https://www.induo.com/b/kompletta-guide-antennkontakter/">böjda eller saknade fingrar i honkontaktens mittuttag</a>.</p>
+<p><img src="../../images/antenner-RF-Connectors-Assortment.webp" alt="Antennkontakter, antennkopplingar"><br>
+<em><code>En samling populära antennkontakter.</code></em> <a href="https://commons.wikimedia.org/w/index.php?curid=113244970">CC BY-SA 4.0</a></p>
+<h3 id="antennkabel">ANTENNKABEL</h3>
+<p>Antennkabeln, eller koaxialkabeln, är den typ av kabel som används för att överföra radiofrekventa radiosignaler.</p>
+<p>Dess uppbyggnad ger med sig att kabeln får en god skärmning vilket innebär att signalen stannar kvar i kabeln och inte stör eller störs ut av annan elektronik. Låga förluster helt enkelt.</p>
+<p>Hur bra skärmning en kabel har är direkt avhängt kvaliteten; materialval, diameter och pris.</p>
+<p>Det finns bl.a. platta kablar, styva och mer följsamma. Supertunna och de med vinklade kontakter samt s.k. lågförlustkablar. Ett par frekvent förekommande koaxkablar är de som kallas RG58 och RG59. De har en impedans på 50 respektive 75 ohm.</p>
+<hr>
+<p>Koaxialkabeln är uppbyggd av ett <em>yttre plasthölje</em> (A), en <em>skärm</em> (B), en <em>isolator</em> (C) och en <em>mittledare</em> (D).</p>
+<p><img src="../../images/antenner-koaxialkabel.webp" alt="Koaxialkabel"><br>
+<em><code>En koaxialkabel i genomskärning</code><br>
+<code>Yttre plasthölje (A), skärm (B), isolator (C), mittledare (D)</code></em></p>
+<ul>
+<li>
+<p><strong>MITTLEDAREN</strong></p>
+<p>Vanligtvis koppar eller tennbelagd koppar.</p>
+</li>
+<li>
+<p><strong>ISOLATORN</strong></p>
+<p>Även kallat <a href="https://sv.wikipedia.org/wiki/Dielektriska_material">dialektrikum</a>. Beroende på kvalitet kan plast eller (det dyrare och bättre) teflon användas. Luft eller skum förekommer även det som dialektrikum.</p>
+</li>
+<li>
+<p><strong>SKÄRMEN</strong></p>
+<p>Ett elektriskt ledande hölje som, återigen beroende på kvalitet kan se lite olika ut även om principen är densamma; ett finmaskigt nät av tunna metalltrådar. De dyrare varianterna har flera lager av det finmaskiga nätet plus folie. Dessa kallas ibland <em>dubbelskärmade</em>. De billigaste kablarna är de vi normalt kallar TV-kabel.</p>
+</li>
+<li>
+<p><strong>YTTRE PLASTHÖLJE</strong></p>
+<p>Skyddar kabeln.</p>
+</li>
+</ul>
+<p>Kabeln i sig är en 2-polig elektrisk elkabel där signalerna överförs mellan den elektriska ledaren och skärmen som elektromagnetiska fält genom det dialektriska materialet - isolatorn. Det elektromagnetiska fältet som färdas i kabeln är en s.k. <a href="https://precisionmmw.com/understanding-tem-te-and-tm-waveguide-modes/">transversell elektromagnetisk våg (TEM-våg)</a>.</p>
+<hr>
+<p><strong>Ju längre kabel desto mer dämpning utsätts signalen för</strong>, vilket ställer kvar på högre uteffekt och bättre - känsligare - mottagare.</p>
+<p>Dämpningen ökar med ökad frekvens, <strong>varpå kravet på bra kablage är högre vid höga frekvenser</strong> än vid låga.</p>
+<h2 id="elektromagnetiska-fält">ELEKTROMAGNETISKA FÄLT</h2>
+<p>Alla antenner kommer <em>när de sänder</em> att generera ett <strong>elektromagnetiskt fält (EMF)</strong> - det är hela grunden i all radiokommunikation. Strålningen från en radiosändare kallas icke-joniserande strålning.</p>
+<h3 id="icke-joniserande-strålning">ICKE-JONISERANDE STRÅLNING</h3>
+<p>Förutom radio- och mikrovågor är även optisk strålning såsom IR, synligt ljus och UV också icke-joniserande. Då denna typ av strålning normalt inte är lika energirik som joniserande strålning är den primära effekten vid absorbtion i kroppen endast en temperaturhöjning.</p>
+<p><img src="../../images/icke-joniserande-str%C3%A5lning.webp" alt="Icke-joniserande strålning"><br>
+<em><code>Varningsskylt för icke-joniserande strålning</code></em></p>
+<h3 id="joniserande-strålning">JONISERANDE STRÅLNING</h3>
+<p>Joniserande strålning har högre energi än icke-joniserande, med frekvenser och våglängder i området exa-/petahertz och piko-/nanometer. Dessa benämns bl.a. UV-, X- och Y-strålning, alltså röntgenstrålning och strålning från radioaktiva källor.</p>
+<p>Den joniserande strålningen kan, om energin är tillräckligt hög tränga in i kroppen och påverka dess cellstruktur och DNA.</p>
+<p><img src="../../images/joniserande-str%C3%A5lning.svg" alt="Joniserande strålning"><br>
+<em><code>Varningsskylt för joniserande strålning</code></em></p>
+<h3 id="säkerhet">SÄKERHET</h3>
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/36279918/">Forskning inom detta område är alltjämt fortgående</a> och nya rön träder emellanåt fram. Generellt när det gäller radiokommunikation är riskerna inte överhängande (vad vi nu vet, vid godkända nivåer), men försiktighetsåtgärder skall tas vid sändning på vissa frekvenser och vid vissa effektnivåer.</p>
+<p><strong>Strålskyddsmyndigheten ger ut allmänna råd för begränsning av allmänhetens exponering</strong>, vars syfte är att skydda från akuta skadliga biologiska effekter vid EMF-exponering. Skador från elektriska eller magnetiska fält som kan ge upphov till skadlig värmeutveckling eller störningar i nersystemets funktion.</p>
+<p>Fält med frekvens upp till ~10 MHz kan om strömtätheten blir hög i kroppen påverka det centrala nervsystemet och höga nivåer mellan 100 kHz - 10 GHz kan leda till uppvärmning av kroppen.</p>
+<p>Riktningen på det elektromagnetiska fältet samt dess våglängd kan skapa <em>resonansfenomen</em> i kroppen, då våra kroppar fungerar som en antenn. Avgörande för vilka vilken frekvens som skapar denna resonans är storleken på våra kroppar; En vuxen persons resonansfrekvens ligger mellan 70 - 90 MHz. Våra olika kroppsdelar kan även de ha olika resonanta, där en vuxen persons huvud är resonant vid ~400 MHz.</p>
+<p>Medelvärdet över hela kroppen, dvs. hur mycket energi vi absorberar per tidsenhet och massenhet benämns SAR  - Specific Absorption Rate - och mäts i enheten [W/kg].</p>
+<hr>
+<p><strong>Några generella rekommendationer kan göras</strong> med hänsyn till hur vi hanterar våra antenner och kommunikationsutrustning.</p>
+<ul>
+<li>
+<p>Montera antennerna så långt bort som möjligt från människor eller djur. Helst inte inomhus då detta kan ge väldigt höga koncentrationer av EMF, utöver den försämrade effekten. Om en antenn ändå monteras inomhus används uteslutande låga effekter.</p>
+</li>
+<li>
+<p>Riktantenner kan generera hög fältstyrka i deras huvudriktningar. Sådana antenner får inte riktas på sådant sätt att människor kan exponeras.</p>
+</li>
+<li>
+<p>Gå aldrig under trådantenner.</p>
+</li>
+<li>
+<p>Använd TILLRÄCKLIG effekt.</p>
+</li>
+<li>
+<p>Strömmar <em>kan</em> färdas utanpå matarledningen, tillbaka från antennen. Dessa strömmar kan generera en hög fältstyrka. Se därför till att placera matarledningar så långt bort som möjligt från platser där människor befinner sig.</p>
+</li>
+<li>
+<p><strong>Vid osäkerhet; uppehåll dig inte i närheten av antenner och matarledningar.</strong></p>
+</li>
+</ul>
+<hr>
+<p>Strålskyddsmyndigheten, Arbetsmiljöverket och Folkhälsomyndigheten har mer information.</p>
+<h2 id="sammanfattning-1">SAMMANFATTNING</h2>
+<p>För ockulärlänk, dvs. LOS (Line-Of-Sight) kan man dra följande <em>generella</em> slutsatser när det kommer till antenner överlag:</p>
+<ul>
+<li>
+<p>Sändarantenner är varken helt isotropiska (uniformt 3D-strålande) eller omnidirektionella (uniformt 2D-strålande), någon form av föredragen strålriktning - <em>gain</em> - förekommer.</p>
+</li>
+<li>
+<p>Användning av omnidirektionella (rundstrålande) antenner för telekommunikation är ovanligt, istället har antennen typiskt förstärkt signal i någon riktning (gain).</p>
+</li>
+<li>
+<p>Mottagarantenner är också typiskt av typen riktantenner och kommer, när de är rätt inställda, samla in mer effekt (ha en högre känslighet) än vad en rundstrålande antenn skulle ha. Mottagande antenns gain adderar till mottagen signal.</p>
+</li>
+<li>
+<p>En effektiv sändarantenn är även en effektiv mottagarantenn.</p>
+</li>
+</ul>
+        </article>
+    </div>
+
+    
+
+            </div>
+        </div><footer class="text-center pb-1">
+    <small class="text-muted">
+        
+            © 2022 dataterminal
+        
+        <br>
+        Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a>
+        and <a href="https://github.com/austingebauer/devise" target="_blank">Devise</a>
+    </small>
+</footer>
+</body>
+</html>

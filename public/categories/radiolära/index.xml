@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Radiolära on dataterminal</title>
+    <link>/categories/radiol%C3%A4ra/</link>
+    <description>Recent content in Radiolära on dataterminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv-SE</language>
+    <copyright>© 2022 dataterminal</copyright>
+    <lastBuildDate>Sun, 27 Nov 2022 23:06:47 +0100</lastBuildDate>
+    
+	<atom:link href="/categories/radiol%C3%A4ra/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Antenner</title>
+      <link>/post/antenner/</link>
+      <pubDate>Sun, 27 Nov 2022 23:06:47 +0100</pubDate>
+      
+      <guid>/post/antenner/</guid>
+      <description>&lt;p&gt;&lt;code&gt;En radioapparat - sändare - kommer, oavsett hur tekniskt avancerad  och &amp;quot;high-end&amp;quot; den än är, aldrig kunna prestera på sin högsta nivå om den inte paras med en effektiv antenn. En väl anpassad antenn är en grundförutsättning för all radiokommunikation. Dunning–Kruger sponsrar detta inlägg.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Radiolära</title>
+      <link>/post/radiolara/</link>
+      <pubDate>Wed, 23 Nov 2022 00:22:20 +0100</pubDate>
+      
+      <guid>/post/radiolara/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Radio och dess egenskaper kan lätt ses som svart magi. Här försöker vi göra det mer lättförståeligt och tillgängligt. Vi börjar med själva radion, därefter modulering, frekvenser och vågor/våglängder.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

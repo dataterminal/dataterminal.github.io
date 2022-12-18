@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WiFi on dataterminal</title>
-    <link>https://dataterminal.github.io/tags/wifi/</link>
+    <link>/tags/wifi/</link>
     <description>Recent content in WiFi on dataterminal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-SE</language>
     <copyright>© 2022 dataterminal</copyright>
     <lastBuildDate>Tue, 22 Nov 2022 22:42:49 +0100</lastBuildDate>
     
-	<atom:link href="https://dataterminal.github.io/tags/wifi/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/wifi/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Wardriving</title>
-      <link>https://dataterminal.github.io/post/wardriving/</link>
+      <link>/post/wardriving/</link>
       <pubDate>Tue, 22 Nov 2022 22:42:49 +0100</pubDate>
       
-      <guid>https://dataterminal.github.io/post/wardriving/</guid>
-      <description>&lt;p&gt;&lt;code&gt;Ordet Wardriving myntades kring 2001 och är en aktivitet där man med hjälp av en dator, mobiltelefon, Playstation Portable eller Nintendo DS etc. åker, går, cyklar, springer eller flyger i jakt på öppna och oskyddade WiFi-nätverk.&lt;/code&gt;&lt;/p&gt;</description>
+      <guid>/post/wardriving/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Ordet Wardriving myntades kring 2001 och är en aktivitet där man med hjälp av en dator, mobiltelefon, Playstation Portable eller Nintendo DS etc. åker, går, cyklar, springer eller flyger i jakt på öppna och oskyddade nätverk. Den svenska benämningen är nätpejling och normalt är det någon typ av IEEE 802.11-baserat trådlöst nät som åsyftas.&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
