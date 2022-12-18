@@ -1,33 +1,27 @@
 +++
 title = "DATATERMINAL"
-description = "Bidrar till en förmågehöjning inom områdena radio och cyber"
+description = "Bidrar till en förmågehöjning inom områdena radio och cyber genom enkelt och lättillgängligt utbildningsmaterial."
 #date = "2022-11-17"
 aliases = ["about-us", "about-hugo", "contact"]
-author = "redaktionen"
+author = "dataterminal"
 +++
-## BAKGRUND
+# BAKGRUND
 Dataterminal började som Instagramkontot [datarapporteringsterminal](https://instagram.com/datarapporteringsterminal/) under hösten 2022. Syftet var då att skapa en kanal riktad främst till personal som på något sätt var verksam inom Försvarsmakten - oavsett anställd eller Hemvärnet - med målssättningen att bidra till en förmågehöjning inom områdena radiolära, signalskydd och till viss del även cyber, genom enkelt och lättillgängligt utbildningsmaterial.  
 
-#### Dunning-Kruger
+# WEBBPLATSEN
 
-Dunning-Kruger slog ner på redaktionen och innehållsmässigt gick utvecklingen snabbt mot att involvera mer avancerade ämnen.
+Instagrams formatbegränsningar gör att textinnehållet begränsas, det naturliga steget blev då att skapa denna hemmsida, men möjlighet till utökat textinnehåll och mer utförliga beskrivningar och artiklar.
 
-Detta, tillsammans med en målsättning om mer R&D - tester och labbar - renderade i att denna hemsida skapades, för att ännu enklare nå ut med innehåll som, pga. formatbegränsningar på Instagram inte direkt lämpar sig där.
+Dataterminals erfarenhetsbank när det kommer till webdev är *begränsad*, så att skapa en sida i HTML från scratch var uteslutet. Ville ej heller använda en av de stora plattformarna likt wordpress, utan ville ha en snabb, enkel sida där analytics-nivåer, säkerhet etc., gick att customisera.  
 
-## WEBBPLATSEN
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a21eb367-0ba8-4e47-947f-d52a9e403284/deploy-status)](https://app.netlify.com/sites/dataterminal/deploys)
-
-Dataterminals erfarenhetsbank när det kommer till webdev är *begränsad*. Vill ej heller använda en av de stora plattformarna, utan vill ha en snabb sida där jag själv kan välja analytics-nivåer etc. En kravspec tillkom. 
-
-#### Kravspec:
+### KRAVSPEC:
 
 - enkel publicering - `tid är pengar`
 - billigt - `gärna gratis`
 - minimalt kodande i HTML - `refuse soydev`
 - minimal bloat - `snabb respons`
 
-Detta ledde till [Hugo](https://gohugo.io/). Sidan distribueras hos Netlify via GitHub. 
+Detta ledde till [Hugo](https://gohugo.io/). Sidan distribueras av Netlify via GitHub. 
 
 #### Hugo
 

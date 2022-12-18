@@ -1,6 +1,4 @@
-# dataterminal.github.io
-
-### WHOAMI
+# WHOAMI
 
 README is in english, website and social media primarily swedish.
 
@@ -9,16 +7,16 @@ Topics include SIGINT, OSINT, R&D and more; threat actors and attack vectors.
 Whatever might interest me. 
 I am a constsant learner and try to teach and share knowledge along the way.
 
-### FAIR USE // LICENSE
+# FAIR USE // LICENSE
 
 Feel free to share and quote my work. Please link to source and give credit where credit is due.  
 The Devise HUGO Theme is under MIT license. My writings are my intellectual property.
 
 Find me on Instagram @ datarapporteringsterminal
 
-### ABOUT THE WEBSITE
+# ABOUT THE WEBSITE
 
-# THEME 
+## THEME 
 
 **Devise**
 
@@ -31,7 +29,7 @@ For a live demo of the theme, see at:
 - [austingebauer.dev](https://austingebauer.dev)
 
 
-### ABOUT HUGO 
+## ABOUT HUGO 
 
 Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
 
