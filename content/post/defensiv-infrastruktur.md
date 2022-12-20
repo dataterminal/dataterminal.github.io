@@ -17,6 +17,11 @@ draft = false
 
 `I vår alltmer digitala värld är det viktigt att hela samhället adderar till ett lands defensiva infrastruktur genom att vara medveten om cybersäkerhetshot. Trots dedikerade militära och civila aktörer måste hela samhället vara vaksam.`
 <!--more-->
+
+![Defensiv infrastruktur](/images/defensiv-infrastruktur.webp)  
+
+---
+
 # DEFENSIV INFRASTRUKTUR 
 
 Förutom att det låter taktiskt och lagom floskligt så finns det ett syfte med att alla och envar är en vägg mot utomstående hot. Att alla har en grundläggande förståelse för hoten skyddar inte bara individen, utan även företag, organisationer, myndigheter och således – i förlängningen – hela samhället och landet vi är satta att försvara. 
