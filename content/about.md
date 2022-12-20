@@ -10,9 +10,9 @@ Dataterminal började som Instagramkontot [datarapporteringsterminal](https://in
 
 # WEBBPLATSEN
 
-Instagrams formatbegränsningar gör att textinnehållet begränsas, det naturliga steget blev då att skapa denna hemmsida, men möjlighet till utökat textinnehåll och mer utförliga beskrivningar och artiklar.
+Instagrams formatbegränsningar gör att textinnehållet begränsas. Det naturliga steget blev då att skapa denna hemsida, med möjlighet till utökat textinnehåll och mer utförliga beskrivningar och artiklar.
 
-Dataterminals erfarenhetsbank när det kommer till webdev är *begränsad*, så att skapa en sida i HTML från scratch var uteslutet. Ville ej heller använda en av de stora plattformarna likt wordpress, utan ville ha en snabb, enkel sida där analytics-nivåer, säkerhet etc., gick att customisera.  
+Dataterminals erfarenhetsbank när det kommer till webdev är *begränsad*, så att skapa en sida i HTML från scratch var uteslutet. Ville ej heller använda en av de stora plattformarna likt Wordpress, utan ville ha en snabb, enkel sida där analytics-nivåer, säkerhet etc., gick att anpassa.  
 
 ### KRAVSPEC:
 
