@@ -52,10 +52,13 @@ copyright = "© 2022 dataterminal"
   #  href = "http://github.com/dataterminal"  # Link to associate with icon (http://, https://, mailto:)
   [[params.social]]
     fa_icon = "fab fa-instagram fa-1x"
-    href = "http://instagram.com/datarapporteringsterminal"
+    href = "https://instagram.com/datarapporteringsterminal"
   [[params.social]]
     fa_icon = "fab fa-twitter fa-1x"
-    href = "http://twitter.com/dataterminal_"
+    href = "https://twitter.com/dataterminal_"
   [[params.social]]
     fa_icon = "fas fa-envelope fa-1x"
     href = "mailto: kontakt@dataterminal.net"
+  [[params.social]]
+    fa_icon = "fas fa-rss fa-1x"
+    href = "https://dataterminal.net/index.xml"
