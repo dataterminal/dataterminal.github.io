@@ -7,24 +7,231 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-SE</language>
     <copyright>© 2022 dataterminal</copyright>
-    <lastBuildDate>Sun, 27 Nov 2022 23:06:47 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 25 Dec 2022 15:41:05 +0100</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>antenner</title>
-      <link>/tags/antenner/</link>
-      <pubDate>Sun, 27 Nov 2022 23:06:47 +0100</pubDate>
+      <title>backup</title>
+      <link>/tags/backup/</link>
+      <pubDate>Sun, 25 Dec 2022 15:41:05 +0100</pubDate>
       
-      <guid>/tags/antenner/</guid>
+      <guid>/tags/backup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cybersecurity</title>
+      <link>/tags/cybersecurity/</link>
+      <pubDate>Sun, 25 Dec 2022 15:41:05 +0100</pubDate>
+      
+      <guid>/tags/cybersecurity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>molnet</title>
+      <link>/tags/molnet/</link>
+      <pubDate>Sun, 25 Dec 2022 15:41:05 +0100</pubDate>
+      
+      <guid>/tags/molnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ransomware</title>
+      <link>/tags/ransomware/</link>
+      <pubDate>Sun, 25 Dec 2022 15:41:05 +0100</pubDate>
+      
+      <guid>/tags/ransomware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DNS</title>
+      <link>/tags/dns/</link>
+      <pubDate>Wed, 21 Dec 2022 22:55:29 +0100</pubDate>
+      
+      <guid>/tags/dns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FTP</title>
+      <link>/tags/ftp/</link>
+      <pubDate>Wed, 21 Dec 2022 22:55:29 +0100</pubDate>
+      
+      <guid>/tags/ftp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HTTP</title>
+      <link>/tags/http/</link>
+      <pubDate>Wed, 21 Dec 2022 22:55:29 +0100</pubDate>
+      
+      <guid>/tags/http/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IPv4</title>
+      <link>/tags/ipv4/</link>
+      <pubDate>Wed, 21 Dec 2022 22:55:29 +0100</pubDate>
+      
+      <guid>/tags/ipv4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IPv6</title>
+      <link>/tags/ipv6/</link>
+      <pubDate>Wed, 21 Dec 2022 22:55:29 +0100</pubDate>
+      
+      <guid>/tags/ipv6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nätverk</title>
+      <link>/tags/n%C3%A4tverk/</link>
+      <pubDate>Wed, 21 Dec 2022 22:55:29 +0100</pubDate>
+      
+      <guid>/tags/n%C3%A4tverk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>protokoll</title>
+      <link>/tags/protokoll/</link>
+      <pubDate>Wed, 21 Dec 2022 22:55:29 +0100</pubDate>
+      
+      <guid>/tags/protokoll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SMTP</title>
+      <link>/tags/smtp/</link>
+      <pubDate>Wed, 21 Dec 2022 22:55:29 +0100</pubDate>
+      
+      <guid>/tags/smtp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SSH</title>
+      <link>/tags/ssh/</link>
+      <pubDate>Wed, 21 Dec 2022 22:55:29 +0100</pubDate>
+      
+      <guid>/tags/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TCP</title>
+      <link>/tags/tcp/</link>
+      <pubDate>Wed, 21 Dec 2022 22:55:29 +0100</pubDate>
+      
+      <guid>/tags/tcp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TLS</title>
+      <link>/tags/tls/</link>
+      <pubDate>Wed, 21 Dec 2022 22:55:29 +0100</pubDate>
+      
+      <guid>/tags/tls/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UDP</title>
+      <link>/tags/udp/</link>
+      <pubDate>Wed, 21 Dec 2022 22:55:29 +0100</pubDate>
+      
+      <guid>/tags/udp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>frekvens</title>
+      <link>/tags/frekvens/</link>
+      <pubDate>Wed, 21 Dec 2022 22:46:39 +0100</pubDate>
+      
+      <guid>/tags/frekvens/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>frekvensspektrum</title>
+      <link>/tags/frekvensspektrum/</link>
+      <pubDate>Wed, 21 Dec 2022 22:46:39 +0100</pubDate>
+      
+      <guid>/tags/frekvensspektrum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HF</title>
+      <link>/tags/hf/</link>
+      <pubDate>Wed, 21 Dec 2022 22:46:39 +0100</pubDate>
+      
+      <guid>/tags/hf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UHF</title>
+      <link>/tags/uhf/</link>
+      <pubDate>Wed, 21 Dec 2022 22:46:39 +0100</pubDate>
+      
+      <guid>/tags/uhf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VHF</title>
+      <link>/tags/vhf/</link>
+      <pubDate>Wed, 21 Dec 2022 22:46:39 +0100</pubDate>
+      
+      <guid>/tags/vhf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>atmosfären</title>
+      <link>/tags/atmosf%C3%A4ren/</link>
+      <pubDate>Wed, 21 Dec 2022 22:39:06 +0100</pubDate>
+      
+      <guid>/tags/atmosf%C3%A4ren/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>brus</title>
+      <link>/tags/brus/</link>
+      <pubDate>Wed, 21 Dec 2022 22:39:06 +0100</pubDate>
+      
+      <guid>/tags/brus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fading</title>
+      <link>/tags/fading/</link>
+      <pubDate>Wed, 21 Dec 2022 22:39:06 +0100</pubDate>
+      
+      <guid>/tags/fading/</guid>
       <description></description>
     </item>
     
     <item>
       <title>radio</title>
       <link>/tags/radio/</link>
-      <pubDate>Sun, 27 Nov 2022 23:06:47 +0100</pubDate>
+      <pubDate>Wed, 21 Dec 2022 22:39:06 +0100</pubDate>
       
       <guid>/tags/radio/</guid>
       <description></description>
@@ -33,9 +240,108 @@
     <item>
       <title>radiolära</title>
       <link>/tags/radiol%C3%A4ra/</link>
-      <pubDate>Sun, 27 Nov 2022 23:06:47 +0100</pubDate>
+      <pubDate>Wed, 21 Dec 2022 22:39:06 +0100</pubDate>
       
       <guid>/tags/radiol%C3%A4ra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bandbredd</title>
+      <link>/tags/bandbredd/</link>
+      <pubDate>Wed, 21 Dec 2022 22:26:11 +0100</pubDate>
+      
+      <guid>/tags/bandbredd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>störningar</title>
+      <link>/tags/st%C3%B6rningar/</link>
+      <pubDate>Wed, 21 Dec 2022 22:26:11 +0100</pubDate>
+      
+      <guid>/tags/st%C3%B6rningar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ASK</title>
+      <link>/tags/ask/</link>
+      <pubDate>Wed, 21 Dec 2022 22:21:10 +0100</pubDate>
+      
+      <guid>/tags/ask/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FSK</title>
+      <link>/tags/fsk/</link>
+      <pubDate>Wed, 21 Dec 2022 22:21:10 +0100</pubDate>
+      
+      <guid>/tags/fsk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>modulering</title>
+      <link>/tags/modulering/</link>
+      <pubDate>Wed, 21 Dec 2022 22:21:10 +0100</pubDate>
+      
+      <guid>/tags/modulering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PSK</title>
+      <link>/tags/psk/</link>
+      <pubDate>Wed, 21 Dec 2022 22:21:10 +0100</pubDate>
+      
+      <guid>/tags/psk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>QAM</title>
+      <link>/tags/qam/</link>
+      <pubDate>Wed, 21 Dec 2022 22:21:10 +0100</pubDate>
+      
+      <guid>/tags/qam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>defensiv infrastruktur</title>
+      <link>/tags/defensiv-infrastruktur/</link>
+      <pubDate>Tue, 20 Dec 2022 04:12:53 +0100</pubDate>
+      
+      <guid>/tags/defensiv-infrastruktur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OPSEC</title>
+      <link>/tags/opsec/</link>
+      <pubDate>Tue, 20 Dec 2022 04:12:53 +0100</pubDate>
+      
+      <guid>/tags/opsec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>situationsmedvetenhet</title>
+      <link>/tags/situationsmedvetenhet/</link>
+      <pubDate>Tue, 20 Dec 2022 04:12:53 +0100</pubDate>
+      
+      <guid>/tags/situationsmedvetenhet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>antenner</title>
+      <link>/tags/antenner/</link>
+      <pubDate>Sun, 27 Nov 2022 23:06:47 +0100</pubDate>
+      
+      <guid>/tags/antenner/</guid>
       <description></description>
     </item>
     
@@ -54,24 +360,6 @@
       <pubDate>Sun, 27 Nov 2022 23:06:47 +0100</pubDate>
       
       <guid>/tags/v%C3%A5gl%C3%A4ngd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>frekvens</title>
-      <link>/tags/frekvens/</link>
-      <pubDate>Wed, 23 Nov 2022 00:22:20 +0100</pubDate>
-      
-      <guid>/tags/frekvens/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>modulering</title>
-      <link>/tags/modulering/</link>
-      <pubDate>Wed, 23 Nov 2022 00:22:20 +0100</pubDate>
-      
-      <guid>/tags/modulering/</guid>
       <description></description>
     </item>
     
@@ -108,15 +396,6 @@
       <pubDate>Tue, 22 Nov 2022 22:42:49 +0100</pubDate>
       
       <guid>/tags/wifi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cybersecurity</title>
-      <link>/tags/cybersecurity/</link>
-      <pubDate>Sun, 20 Nov 2022 15:51:12 +0100</pubDate>
-      
-      <guid>/tags/cybersecurity/</guid>
       <description></description>
     </item>
     
@@ -189,15 +468,6 @@
       <pubDate>Thu, 17 Nov 2022 08:54:12 +0100</pubDate>
       
       <guid>/tags/ranwomware/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>situationsmedvetenhet</title>
-      <link>/tags/situationsmedvetenhet/</link>
-      <pubDate>Thu, 17 Nov 2022 08:54:12 +0100</pubDate>
-      
-      <guid>/tags/situationsmedvetenhet/</guid>
       <description></description>
     </item>
     

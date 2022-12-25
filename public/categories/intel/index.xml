@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-SE</language>
     <copyright>© 2022 dataterminal</copyright>
-    <lastBuildDate>Tue, 22 Nov 2022 22:42:49 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 20 Dec 2022 04:12:53 +0100</lastBuildDate>
     
 	<atom:link href="/categories/intel/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Defensiv Infrastruktur</title>
+      <link>/post/defensiv-infrastruktur/</link>
+      <pubDate>Tue, 20 Dec 2022 04:12:53 +0100</pubDate>
+      
+      <guid>/post/defensiv-infrastruktur/</guid>
+      <description>&lt;p&gt;&lt;code&gt;I vår alltmer digitala värld är det viktigt att hela samhället adderar till ett lands defensiva infrastruktur genom att vara medveten om cybersäkerhetshot. Trots dedikerade militära och civila aktörer måste hela samhället vara vaksam.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Wardriving</title>

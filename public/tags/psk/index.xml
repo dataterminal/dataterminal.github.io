@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PSK on dataterminal</title>
+    <link>/tags/psk/</link>
+    <description>Recent content in PSK on dataterminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv-SE</language>
+    <copyright>© 2022 dataterminal</copyright>
+    <lastBuildDate>Wed, 21 Dec 2022 22:21:10 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/psk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Digital Modulering</title>
+      <link>/post/digital-modulering/</link>
+      <pubDate>Wed, 21 Dec 2022 22:21:10 +0100</pubDate>
+      
+      <guid>/post/digital-modulering/</guid>
+      <description>&lt;p&gt;&lt;code&gt;En kort förklarande text till vanligt förekommande digitala moduleringsformer. Texten kommer att uppdateras.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

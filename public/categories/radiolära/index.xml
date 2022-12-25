@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-SE</language>
     <copyright>© 2022 dataterminal</copyright>
-    <lastBuildDate>Sun, 27 Nov 2022 23:06:47 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 21 Dec 2022 22:46:39 +0100</lastBuildDate>
     
 	<atom:link href="/categories/radiol%C3%A4ra/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Jämförelse mellan HF, VHF &amp; UHF</title>
+      <link>/post/jamforelse-hf-vhf-uhf/</link>
+      <pubDate>Wed, 21 Dec 2022 22:46:39 +0100</pubDate>
+      
+      <guid>/post/jamforelse-hf-vhf-uhf/</guid>
+      <description>&lt;p&gt;&lt;code&gt;HF (hög frekvens), VHF (mycket hög frekvens) och UHF (ultrahög frekvens) är olika områden av radiofrekvensspektrumet som används för olika typer av radiokommunikation. Här är några för- och nackdelar med HF-, VHF- och UHF-radiokommunikation.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fading</title>
+      <link>/post/fading/</link>
+      <pubDate>Wed, 21 Dec 2022 22:39:06 +0100</pubDate>
+      
+      <guid>/post/fading/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Fading är ett fenomen som kan uppstå i radiokommunikation när signalstyrkan hos en sänd signal ändras över tiden. Detta kan orsakas av en mängd olika faktorer, inklusive atmosfäriska förhållanden, störningar från andra signaler och rörelsen hos de sändande och mottagande antennerna.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Bandbredd</title>
+      <link>/post/bandbredd/</link>
+      <pubDate>Wed, 21 Dec 2022 22:26:11 +0100</pubDate>
+      
+      <guid>/post/bandbredd/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Inom radiokommunikation avser bandbredd det frekvensområde som en signal upptar på radiofrekvensspektrumet. En signals bandbredd bestämmer hur mycket information som kan överföras under en given tid, eftersom en bredare bandbredd möjliggör en högre datahastighet.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Digital Modulering</title>
+      <link>/post/digital-modulering/</link>
+      <pubDate>Wed, 21 Dec 2022 22:21:10 +0100</pubDate>
+      
+      <guid>/post/digital-modulering/</guid>
+      <description>&lt;p&gt;&lt;code&gt;En kort förklarande text till vanligt förekommande digitala moduleringsformer. Texten kommer att uppdateras.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Antenner</title>

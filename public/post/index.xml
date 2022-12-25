@@ -7,10 +7,73 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-SE</language>
     <copyright>© 2022 dataterminal</copyright>
-    <lastBuildDate>Sun, 27 Nov 2022 23:06:47 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 25 Dec 2022 15:41:05 +0100</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Säkerhetskopiering</title>
+      <link>/post/backup-best-practices/</link>
+      <pubDate>Sun, 25 Dec 2022 15:41:05 +0100</pubDate>
+      
+      <guid>/post/backup-best-practices/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Det finns många potentiella risker för din data. Säkerhetskopiering av dina data är viktigt eftersom det hjälper till att skydda dina viktiga filer och dokument från dessa risker; förlust på grund av olyckor, maskinvarufel eller andra oförutsedda händelser.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nätverksprotokoll</title>
+      <link>/post/natverksprotokoll/</link>
+      <pubDate>Wed, 21 Dec 2022 22:55:29 +0100</pubDate>
+      
+      <guid>/post/natverksprotokoll/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Det finns många olika nätverksprotokoll som används idag, var och en tjänar ett specifikt syfte och fungerar på olika lager av nätverksstacken. Vi tittar på ett urval av de allra vanligast förekommande nätverksprotokollen.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jämförelse mellan HF, VHF &amp; UHF</title>
+      <link>/post/jamforelse-hf-vhf-uhf/</link>
+      <pubDate>Wed, 21 Dec 2022 22:46:39 +0100</pubDate>
+      
+      <guid>/post/jamforelse-hf-vhf-uhf/</guid>
+      <description>&lt;p&gt;&lt;code&gt;HF (hög frekvens), VHF (mycket hög frekvens) och UHF (ultrahög frekvens) är olika områden av radiofrekvensspektrumet som används för olika typer av radiokommunikation. Här är några för- och nackdelar med HF-, VHF- och UHF-radiokommunikation.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fading</title>
+      <link>/post/fading/</link>
+      <pubDate>Wed, 21 Dec 2022 22:39:06 +0100</pubDate>
+      
+      <guid>/post/fading/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Fading är ett fenomen som kan uppstå i radiokommunikation när signalstyrkan hos en sänd signal ändras över tiden. Detta kan orsakas av en mängd olika faktorer, inklusive atmosfäriska förhållanden, störningar från andra signaler och rörelsen hos de sändande och mottagande antennerna.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Bandbredd</title>
+      <link>/post/bandbredd/</link>
+      <pubDate>Wed, 21 Dec 2022 22:26:11 +0100</pubDate>
+      
+      <guid>/post/bandbredd/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Inom radiokommunikation avser bandbredd det frekvensområde som en signal upptar på radiofrekvensspektrumet. En signals bandbredd bestämmer hur mycket information som kan överföras under en given tid, eftersom en bredare bandbredd möjliggör en högre datahastighet.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Digital Modulering</title>
+      <link>/post/digital-modulering/</link>
+      <pubDate>Wed, 21 Dec 2022 22:21:10 +0100</pubDate>
+      
+      <guid>/post/digital-modulering/</guid>
+      <description>&lt;p&gt;&lt;code&gt;En kort förklarande text till vanligt förekommande digitala moduleringsformer. Texten kommer att uppdateras.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Defensiv Infrastruktur</title>
+      <link>/post/defensiv-infrastruktur/</link>
+      <pubDate>Tue, 20 Dec 2022 04:12:53 +0100</pubDate>
+      
+      <guid>/post/defensiv-infrastruktur/</guid>
+      <description>&lt;p&gt;&lt;code&gt;I vår alltmer digitala värld är det viktigt att hela samhället adderar till ett lands defensiva infrastruktur genom att vara medveten om cybersäkerhetshot. Trots dedikerade militära och civila aktörer måste hela samhället vara vaksam.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Antenner</title>

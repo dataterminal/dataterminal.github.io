@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-SE</language>
     <copyright>© 2022 dataterminal</copyright>
-    <lastBuildDate>Sun, 20 Nov 2022 15:51:12 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 25 Dec 2022 15:41:05 +0100</lastBuildDate>
     
 	<atom:link href="/tags/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Säkerhetskopiering</title>
+      <link>/post/backup-best-practices/</link>
+      <pubDate>Sun, 25 Dec 2022 15:41:05 +0100</pubDate>
+      
+      <guid>/post/backup-best-practices/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Det finns många potentiella risker för din data. Säkerhetskopiering av dina data är viktigt eftersom det hjälper till att skydda dina viktiga filer och dokument från dessa risker; förlust på grund av olyckor, maskinvarufel eller andra oförutsedda händelser.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nätverksprotokoll</title>
+      <link>/post/natverksprotokoll/</link>
+      <pubDate>Wed, 21 Dec 2022 22:55:29 +0100</pubDate>
+      
+      <guid>/post/natverksprotokoll/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Det finns många olika nätverksprotokoll som används idag, var och en tjänar ett specifikt syfte och fungerar på olika lager av nätverksstacken. Vi tittar på ett urval av de allra vanligast förekommande nätverksprotokollen.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Defensiv Infrastruktur</title>
+      <link>/post/defensiv-infrastruktur/</link>
+      <pubDate>Tue, 20 Dec 2022 04:12:53 +0100</pubDate>
+      
+      <guid>/post/defensiv-infrastruktur/</guid>
+      <description>&lt;p&gt;&lt;code&gt;I vår alltmer digitala värld är det viktigt att hela samhället adderar till ett lands defensiva infrastruktur genom att vara medveten om cybersäkerhetshot. Trots dedikerade militära och civila aktörer måste hela samhället vara vaksam.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>OSINT</title>

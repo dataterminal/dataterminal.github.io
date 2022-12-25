@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>frekvensspektrum on dataterminal</title>
+    <link>/tags/frekvensspektrum/</link>
+    <description>Recent content in frekvensspektrum on dataterminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv-SE</language>
+    <copyright>© 2022 dataterminal</copyright>
+    <lastBuildDate>Wed, 21 Dec 2022 22:46:39 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/frekvensspektrum/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jämförelse mellan HF, VHF &amp; UHF</title>
+      <link>/post/jamforelse-hf-vhf-uhf/</link>
+      <pubDate>Wed, 21 Dec 2022 22:46:39 +0100</pubDate>
+      
+      <guid>/post/jamforelse-hf-vhf-uhf/</guid>
+      <description>&lt;p&gt;&lt;code&gt;HF (hög frekvens), VHF (mycket hög frekvens) och UHF (ultrahög frekvens) är olika områden av radiofrekvensspektrumet som används för olika typer av radiokommunikation. Här är några för- och nackdelar med HF-, VHF- och UHF-radiokommunikation.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Bandbredd</title>
+      <link>/post/bandbredd/</link>
+      <pubDate>Wed, 21 Dec 2022 22:26:11 +0100</pubDate>
+      
+      <guid>/post/bandbredd/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Inom radiokommunikation avser bandbredd det frekvensområde som en signal upptar på radiofrekvensspektrumet. En signals bandbredd bestämmer hur mycket information som kan överföras under en given tid, eftersom en bredare bandbredd möjliggör en högre datahastighet.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

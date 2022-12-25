@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UHF on dataterminal</title>
+    <link>/tags/uhf/</link>
+    <description>Recent content in UHF on dataterminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv-SE</language>
+    <copyright>© 2022 dataterminal</copyright>
+    <lastBuildDate>Wed, 21 Dec 2022 22:46:39 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/uhf/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jämförelse mellan HF, VHF &amp; UHF</title>
+      <link>/post/jamforelse-hf-vhf-uhf/</link>
+      <pubDate>Wed, 21 Dec 2022 22:46:39 +0100</pubDate>
+      
+      <guid>/post/jamforelse-hf-vhf-uhf/</guid>
+      <description>&lt;p&gt;&lt;code&gt;HF (hög frekvens), VHF (mycket hög frekvens) och UHF (ultrahög frekvens) är olika områden av radiofrekvensspektrumet som används för olika typer av radiokommunikation. Här är några för- och nackdelar med HF-, VHF- och UHF-radiokommunikation.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -3,6 +3,251 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/tags/backup/</loc>
+    <lastmod>2022-12-25T15:41:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2022-12-25T15:41:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/cyber/</loc>
+    <lastmod>2022-12-25T15:41:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/cybersecurity/</loc>
+    <lastmod>2022-12-25T15:41:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/molnet/</loc>
+    <lastmod>2022-12-25T15:41:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2022-12-25T15:41:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ransomware/</loc>
+    <lastmod>2022-12-25T15:41:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/backup-best-practices/</loc>
+    <lastmod>2022-12-25T15:41:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2022-12-25T15:41:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/dns/</loc>
+    <lastmod>2022-12-21T22:55:29+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ftp/</loc>
+    <lastmod>2022-12-21T22:55:29+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/http/</loc>
+    <lastmod>2022-12-21T22:55:29+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ipv4/</loc>
+    <lastmod>2022-12-21T22:55:29+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ipv6/</loc>
+    <lastmod>2022-12-21T22:55:29+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/n%C3%A4tverk/</loc>
+    <lastmod>2022-12-21T22:55:29+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/natverksprotokoll/</loc>
+    <lastmod>2022-12-21T22:55:29+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/protokoll/</loc>
+    <lastmod>2022-12-21T22:55:29+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/smtp/</loc>
+    <lastmod>2022-12-21T22:55:29+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ssh/</loc>
+    <lastmod>2022-12-21T22:55:29+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/tcp/</loc>
+    <lastmod>2022-12-21T22:55:29+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/tls/</loc>
+    <lastmod>2022-12-21T22:55:29+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/udp/</loc>
+    <lastmod>2022-12-21T22:55:29+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/frekvens/</loc>
+    <lastmod>2022-12-21T22:46:39+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/frekvensspektrum/</loc>
+    <lastmod>2022-12-21T22:46:39+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/hf/</loc>
+    <lastmod>2022-12-21T22:46:39+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/jamforelse-hf-vhf-uhf/</loc>
+    <lastmod>2022-12-21T22:46:39+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/radiol%C3%A4ra/</loc>
+    <lastmod>2022-12-21T22:46:39+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/uhf/</loc>
+    <lastmod>2022-12-21T22:46:39+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/vhf/</loc>
+    <lastmod>2022-12-21T22:46:39+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/atmosf%C3%A4ren/</loc>
+    <lastmod>2022-12-21T22:39:06+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/brus/</loc>
+    <lastmod>2022-12-21T22:39:06+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/fading/</loc>
+    <lastmod>2022-12-21T22:39:06+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/fading/</loc>
+    <lastmod>2022-12-21T22:39:06+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/radio/</loc>
+    <lastmod>2022-12-21T22:39:06+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/radiol%C3%A4ra/</loc>
+    <lastmod>2022-12-21T22:39:06+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/bandbredd/</loc>
+    <lastmod>2022-12-21T22:26:11+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/bandbredd/</loc>
+    <lastmod>2022-12-21T22:26:11+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/st%C3%B6rningar/</loc>
+    <lastmod>2022-12-21T22:26:11+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ask/</loc>
+    <lastmod>2022-12-21T22:21:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/digital-modulering/</loc>
+    <lastmod>2022-12-21T22:21:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/fsk/</loc>
+    <lastmod>2022-12-21T22:21:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/modulering/</loc>
+    <lastmod>2022-12-21T22:21:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/psk/</loc>
+    <lastmod>2022-12-21T22:21:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/qam/</loc>
+    <lastmod>2022-12-21T22:21:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/defensiv-infrastruktur/</loc>
+    <lastmod>2022-12-20T04:12:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/defensiv-infrastruktur/</loc>
+    <lastmod>2022-12-20T04:12:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/intel/</loc>
+    <lastmod>2022-12-20T04:12:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/opsec/</loc>
+    <lastmod>2022-12-20T04:12:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/situationsmedvetenhet/</loc>
+    <lastmod>2022-12-20T04:12:53+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/antenner/</loc>
     <lastmod>2022-11-27T23:06:47+01:00</lastmod>
   </url>
@@ -13,37 +258,7 @@
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2022-11-27T23:06:47+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2022-11-27T23:06:47+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/radio/</loc>
-    <lastmod>2022-11-27T23:06:47+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/radiol%C3%A4ra/</loc>
-    <lastmod>2022-11-27T23:06:47+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/radiol%C3%A4ra/</loc>
-    <lastmod>2022-11-27T23:06:47+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/samband/</loc>
-    <lastmod>2022-11-27T23:06:47+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2022-11-27T23:06:47+01:00</lastmod>
   </url>
   
@@ -53,23 +268,8 @@
   </url>
   
   <url>
-    <loc>/tags/frekvens/</loc>
-    <lastmod>2022-11-23T00:22:20+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/modulering/</loc>
-    <lastmod>2022-11-23T00:22:20+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/radiolara/</loc>
     <lastmod>2022-11-23T00:22:20+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/intel/</loc>
-    <lastmod>2022-11-22T22:42:49+01:00</lastmod>
   </url>
   
   <url>
@@ -95,11 +295,6 @@
   <url>
     <loc>/tags/wifi/</loc>
     <lastmod>2022-11-22T22:42:49+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/cybersecurity/</loc>
-    <lastmod>2022-11-20T15:51:12+01:00</lastmod>
   </url>
   
   <url>
@@ -138,11 +333,6 @@
   </url>
   
   <url>
-    <loc>/categories/cyber/</loc>
-    <lastmod>2022-11-17T08:54:12+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/hotakt%C3%B6r/</loc>
     <lastmod>2022-11-17T08:54:12+01:00</lastmod>
   </url>
@@ -164,11 +354,6 @@
   
   <url>
     <loc>/categories/samband/</loc>
-    <lastmod>2022-11-17T08:54:12+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/situationsmedvetenhet/</loc>
     <lastmod>2022-11-17T08:54:12+01:00</lastmod>
   </url>
   
