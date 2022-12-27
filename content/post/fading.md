@@ -21,13 +21,13 @@ draft = false
 
 Det finns flera typer av fading som kan uppstå i radiokommunikation, inklusive:
 
-* **Flervägsfädning**:  
-Flervägsfädning inträffar när en sänd signal tar flera vägar för att nå den mottagande antennen. Detta kan få signalstyrkan att fluktuera eftersom de olika vägarna upplever olika nivåer av störningar och dämpning.
+* **Flervägsfading**:  
+Flervägsfading inträffar när en sänd signal tar flera vägar för att nå den mottagande antennen. Detta kan få signalstyrkan att fluktuera eftersom de olika vägarna upplever olika nivåer av störningar och dämpning.
 
 * **Skuggfading**:  
 Skuggfading inträffar när ett föremål, till exempel en byggnad eller ett berg, blockerar den direkta vägen mellan sändande och mottagande antenner. Detta kan göra att signalstyrkan sjunker avsevärt, vilket resulterar i fading.
 
 * **Jonosfärsfading**:  
-Jonosfärensfading uppstår när jonosfären, ett lager av jordens atmosfär, reflekterar eller absorberar den överförda signalen. Detta kan få signalstyrkan att fluktuera och kan också orsaka förseningar i signalens ankomsttid.
+Jonosfärsfading uppstår när jonosfären, ett lager av jordens atmosfär, reflekterar eller absorberar den överförda signalen. Detta kan få signalstyrkan att fluktuera och kan också orsaka förseningar i signalens ankomsttid.
 
 Fading kan orsaka betydande problem i radiokommunikationen, eftersom det kan leda till fel i överförd data och avbrott i kommunikationslänken. För att mitigera detta kan radiokommunikationssystem använda tekniker såsom diversifiering, vilket innebär att man använder flera antenner eller frekvenser för att förbättra signal-brusförhållandet - signal-to-noise ratio (SNR).
