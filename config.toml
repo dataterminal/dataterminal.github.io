@@ -6,7 +6,7 @@ relativeURLs = true
 enableEmoji = true
 #googleAnalytics = ""
 enableRobotsTXT = true
-copyright = "© 2022 dataterminal"
+copyright = "© 2023 dataterminal"
 
 
 # Main menu items
@@ -35,6 +35,12 @@ copyright = "© 2022 dataterminal"
     title = "Taggar"
     url = "/tags/"
     weight = -80
+    [[menu.main]]
+    identifier = "links"
+    name = "Resurser"
+    title = "Resurser"
+    url = "/links/"
+    weight = -70
 
 # Configuration Features
 [params]
@@ -50,6 +56,9 @@ copyright = "© 2022 dataterminal"
   #[[params.social]]
   #  fa_icon = "fab fa-github fa-1x"          # Font Awesome icon class
   #  href = "http://github.com/dataterminal"  # Link to associate with icon (http://, https://, mailto:)
+  [[params.social]]
+    fa_icon = "fas fa-coffee fa-1x"
+    href = "https://www.buymeacoffee.com/dataterminal"
   [[params.social]]
     fa_icon = "fab fa-instagram fa-1x"
     href = "https://instagram.com/datarapporteringsterminal"
