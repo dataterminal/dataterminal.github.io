@@ -22,6 +22,18 @@ draft = false
 
 ---
 
+# DEN STARKA LÄNKEN
+
+När vi pratar om cybersäkerhet är det lätt att diskussionen ockuperas av avancerade lösningar, Artificiell Intelligens och maskininlärning. Konsulter och experter hypar dyra, avancerade system, early warning och Incidence Response Teams. Detta är såklart av godo, cybersäkerhet kostar och det *måste få kosta*, alternativet är multipelt dyrare. 
+
+Problem uppstår dock när cybersäkerhet blir synonymt med avancerad teknologi; det skapas en lättja, eller en falsk trygghet hos användaren. Man förlitar sig helt enkelt för mycket på teknologin. Företagen försöker kringå detta genom att obligatoriskt och lite slappt tvinga personalen att titta på någon trött animerad film om hur viktigt det är att skapa starka lösenord och att inte klicka på mail från okända avsändare. 
+
+Människan ÄR ofta den svagaste länken och det som tillåter en hotaktör kringå de mest avancerade systemen. Jag vill dock hävda att människan kan vara den starkaste länken, en kompetent resurs, i att stävja cyberkriminalitet. För att det ska vara möjligt kanske vi behöver skala tillbaka lite, gå tillbaka några steg och sluta *grindvakta*. Se till att gemene man, kvinna och barn förstår åtminstone det mest grundläggande med IT, nätverk och cyber. Förklara VARFÖR det är viktigt och hur enkelt det faktiskt är att skydda sig.   
+
+`DE ANIMERADE CYBERSÄKERHETSUTBILDNINGARNA KANSKE INTE ÄR SÅ DUMMA TROTS ALLT?`
+
+Det skall tilläggas att jag inte har alla svar eller säger att detta är det enda sättet, men det är *ett* (1) sätt. Finns det bättre alternativ är jag idel öra. 
+
 # DEFENSIV INFRASTRUKTUR 
 
 Förutom att det låter taktiskt och lagom floskligt så finns det ett syfte med att alla och envar är en vägg mot utomstående hot. Att alla har en grundläggande förståelse för hoten skyddar inte bara individen, utan även företag, organisationer, myndigheter och således – i förlängningen – hela samhället och landet vi är satta att försvara. 
