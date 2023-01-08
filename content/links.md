@@ -2,12 +2,23 @@
 title = "LÄNKSAMLING"
 description = "Bidrar till en förmågehöjning inom områdena radio och cyber genom enkelt och lättillgängligt utbildningsmaterial."
 #date = "2022-11-17"
-aliases = ["about-us", "about-hugo", "contact"]
+aliases = ["resurser", "länkar", "länksamling"]
 author = "dataterminal"
 +++
-# RESURSER
+# NEDLADDNINGSBART
 
-Tillhandahåller nedan ett urval länkar till diverse utbildningsplattformar, dokument och artiklar som syftar till att höja din förmåga och tjäna som egenutbildning inom områdena radio och cyber. 
+Enkla åtgärder och hints gällande samband och cyber, i utskriftsvänligt .pdf-format. 
+Skriv ut och sätt upp på lämplig plats. 
+
+Uppdateras efterhand.
+
+* [Samband - Signaturreducering](/documents/samband-signaturreducering-printable.pdf)
+* [Samband - God sambandshygien](/documents/samband-god-sambandshygien-printable.pdf)
+* [Cyber - Enkla preventiva åtgärder](/documents/cyber-enkla-preventiva-atgarder-printable.pdf)
+
+# UTBILDNINGSRESURSER
+
+Tillhandahåller nedan ett urval länkar till diverse utbildningsplattformar, ~~dokument och artiklar~~ som syftar till att höja din förmåga och tjäna som egenutbildning inom områdena radio och cyber. 
 
 Målsättningen är att resurserna ska vara gratis, men vissa betalalternativ förekommer. Som så mycket annat är oftast de mer kvalitativa plattformarna och resurserna sådana man får betala för.
 
@@ -19,13 +30,13 @@ Det bästa alternativet kan vara att helt enkelt bara välja en (1) resurs och g
 
 Länkarna är kategoriserade nedan enligt:
 
-* Cyber
-    - Engelska
-    - Svenska
+* **CYBER**
+    - Engelska sidor
+    - Svenska sidor
 
-* Radio 
-    - Engelska
-    - Svenska
+* **RADIO** 
+    - Engelska sidor
+    - Svenska sidor
 
 *Sidan uppdateras löpande*  
 
@@ -52,6 +63,10 @@ Länkarna är kategoriserade nedan enligt:
 [Hack The Box](https://www.hackthebox.com/) - Hack The Box låter dig öva upp hacking skills. Dom har en free tier och ett par betalplaner.
 
 [Free Code Camp](https://www.freecodecamp.org/) - Free Code Camp tillhandahåller gratis onlinekurser inom programmering.
+
+[Wargames](https://overthewire.org/wargames/) - Wargames lär dig säkerhetskoncept, cybersäkerhet och hacking i form av spel.
+
+[TryHackMe](https://tryhackme.com/) - TryHackMe lär dig säkerhetskoncept, cybersäkerhet och hacking i form av spel. Nybörjarvänligt. 
 
 ### SVENSKA
 

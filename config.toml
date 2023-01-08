@@ -42,6 +42,7 @@ copyright = "© 2023 dataterminal"
     url = "/links/"
     weight = -70
 
+
 # Configuration Features
 [params]
   description = "Radiolära, cyber och SIGINT. Vad är frekvens och våglängd? Hur funkar modulering? Vi tittar på aktuella hotaktörer, attackvektorer och elektronisk krigföring. Var en tillgång - tråkigt vinner."   # Your meta description of the site
