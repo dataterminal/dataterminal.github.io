@@ -3,11 +3,12 @@
   [headers.values]
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
-    Content-Security-Policy = "form-action https:"
+    Content-Security-Policy = "form-action https:""img-src * data:; font-src * data:; default-src 'unsafe-inline' dataterminal.net ajax.cloudflare.com secure.gravatar.com search.google.com fonts.googleapis.com fonts.gstatic.com ajax.googleapis.com www.google-analytics.com ";
     Referrer-Policy = "strict-origin-when-cross-origin"
     Strict-Transport-Security = "max-age=2592000"
     Feature-Policy = "vibrate 'none'; geolocation 'none'; midi 'none'; notifications 'none'; push 'none'; sync-xhr 'none'; microphone 'none'; camera 'none'; magnetometer 'none'; gyroscope 'none'; speaker 'none'; vibrate 'none'; fullscreen 'none'; payment 'none'"
     X-Content-Type-Options = "nosniff"
+
 
 [[redirects]]
   from = "/*"
