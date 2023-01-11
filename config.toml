@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "dataterminal"
+title = "DATATERMINAL"
 languageCode = "sv-SE"
 theme = "devise"
 relativeURLs = true
@@ -45,7 +45,7 @@ copyright = "© 2023 dataterminal"
 
 # Configuration Features
 [params]
-  description = "Radiolära, cyber och SIGINT. Vad är frekvens och våglängd? Hur funkar modulering? Vi tittar på aktuella hotaktörer, attackvektorer och elektronisk krigföring. Var en tillgång - tråkigt vinner."   # Your meta description of the site
+  description = "Radiolära & Cyber. Vad är frekvens och våglängd? Hur funkar modulering? Vi tittar på aktuella hotaktörer, attackvektorer och elektronisk krigföring. Var en tillgång - tråkigt vinner."   # Your meta description of the site
   header_title = "DATATERMINAL"               # Your header title
   header_subtitle = "DEFENSIV INFRASTRUKTUR™" # Your header subtitle
   home_image = "/images/avatar.png"           # Path to header image starting from the static directory

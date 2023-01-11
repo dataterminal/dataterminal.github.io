@@ -17,7 +17,7 @@ categories = [
 draft = true
 +++
 
-`Detta är en ganska kort genomgång och introduktion till OPSEC (Operationssäkerhet) och PERSEC (Personlig Säkerhet). Dataterminal stödjer på inget sätt olagliga förehavanden och aktiviteter, utan denna text är ur rent utbildningssyfte. Devisen "know thy enemy" kan  tillämpas, för om du känner till motståndarens eventuella tillvägagångssätt blir det lättare att skydda sig.`
+`Detta är en ganska kort genomgång och introduktion till OPSEC (Operationssäkerhet) och PERSEC (Personlig Säkerhet). Dataterminal stödjer på inget sätt olagliga förehavanden och aktiviteter, utan denna text är ur rent utbildningssyfte. Devisen "know thy enemy" kan tillämpas, för om du känner till motståndarens eventuella tillvägagångssätt blir det lättare att skydda sig.`
 <!--more-->
 # OPSEC
 

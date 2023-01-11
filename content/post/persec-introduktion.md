@@ -21,37 +21,37 @@ draft = true
 
 För länge sedan, under internets guldålder, kunde en privatperson till större del än idag undvika att spåras digitalt. 
 
-En skara individer satt på kunskapen hur man kunde nyttja eller utnyttja den nya digitala motorvägen - internet - till sin fördel. För gott och för ont.
+En liten skara individer satt på kunskapen om hur man kunde nyttja eller utnyttja den nya digitala motorvägen - internet - till sin fördel. Nyttja den av godo eller av ondo.
 
-Kunskapen dessa individer, dessa *hackare*, satt på var ofta av betydligt högre beskaffenhet än hos de myndigheter och stater satta att skydda infrastrukturen. 
+Kunskapen dessa individer, dessa *hackare* satt på var ofta av betydligt högre beskaffenhet än hos de myndigheter och stater satta att skydda infrastrukturen. 
 
 Idag däremot är det fullkomligt omöjligt att komma i närheten av en statlig aktör vad gäller pengar, utrustning och till viss del kompetens (även om just du är jätteduktig på IT så har den statliga aktören MÅNGA FLER jätteduktiga på IT). 
 
 Det innebär att vad du än gör så kommer troligtvis allting tids nog avslöjas, kartläggas eller utnyttjas. 
 
-Och även om just Du utför alla steg till punkt och pricka och inte lämna några som helst spår efter dig, så kommer dina kontakter tabba sig; råka säga eller skriva något avslöjande eller helt enkelt gola ner dig när skiten väl träffar fläkten. Med andra ord, **de du absolut inte ska lita på är de du tror dig kunna lita på**.
+Och även om *just du* utför alla steg till punkt och pricka och inte lämnar några som helst spår efter dig, så kommer dina kontakter tabba sig; råka säga eller skriva något avslöjande eller helt enkelt gola ner dig när skiten väl träffar fläkten. Med andra ord, **de du absolut inte ska lita på är de du tror dig kunna lita på**.
 
 Ett viktigt tillägg är att mycket av detta även kan tillämpas av dig som befinner dig på en plats som möjligen skulle kunna utsättas för underrättelseinhämtning från främmande makt.
 
 Din arbetsgivare ska i dessa fall ge dig den kunskap och de verktyg du behöver för att upprätthålla ett fullgott skydd, men även om du på din arbetsplats agerar efter OPSEC och PERSEC så kan arbetsgivaren inte kontrollera det du gör privat - **gör det svårare för motståndaren att komma åt dig!** 
 
-### PERSEC
+# PERSEC
 
-PerSec - Personal Security - är begreppet för området som inefattar allt som har att göra med hur du som individ skyddar din egen person. 
+PerSec - Personal Security - är begreppet för området som innefattar allt som har att göra med hur du som individ skyddar din egen person. 
 
-Skyddet innefattar de självklara sakerna såsom ditt personnummer, telefonnummer och adress, men även mer ingående detaljer
+Skyddet innefattar de självklara sakerna såsom ditt personnummer, telefonnummer och adress, men även mer ingående detaljer såsom dina relationer och resplaner.
 
 1. Lägg inte upp exakta datum för övningar, insatser eller andra operationer. 
 2. Avslöja inte platser eller närliggande platser till där ni befinner er.
 3. Diskutera inte säkerhetsrutiner, taktik eller svarstider; hur snabbt kunde ni ta er från A till B, eller X antal soldater kunde infinna sig efter Y tid till [eftersök] eller [stöd till samhället].
 4. Diskutera inte färdvägar eller typ av väg; landsväg, motortrafikled. Diskutera inte var ni åt. 
 5. Se till att foton inte visar byggnader eller platser och landmärken som är identifierbara.
-6. OM publicering av bilder med identifierbar data ändå sker, se till att mörklägga eller pixelera delar enligt (men ej begränsat till) punkt 3; namn, registreringsnummer är information som inte ska spridas. 
+6. OM publicering av bilder med identifierbar information ändå sker, se till att mörklägga eller pixelera delar likt (men ej begränsat till) -----  
 7. OM du lägger upp bilder, se till att de inte kan misstolkas eller användas i propagandasyfte. Kan din bild, utan bildtext ändå förstås i dess kontext? 
 8. Se till att dina foton inte innhåller metadata.
-9. Lägg inte upp foton på dina relationer; barn, partner, släktingar och vänner. 
-10. Att "publicera" bilder innefattar även forum som ligger bakom autentiseringskrav; privata chattar, discord, ditt privata Instagram-konto eller direktmeddelande. Du kanske kan kontrollera din egen enhet till en någorlunda god nivå, men kan du lite på mottagaren? Om du anser dig göra det, kan du lita på att dennes enhet omöjligen kan komma att komprometteras?  
-11. Sprid inte rykten, varken egna spekulationer eller sådana du hör.
+9. Namn och registreringsnummer är information som inte ska spridas.
+10. Lägg inte upp foton på dina relationer; barn, partner, släktingar och vänner. 
+11. Att "publicera" bilder innefattar även forum som ligger bakom autentiseringskrav; privata chattar, discord, ditt privata Instagram-konto eller direktmeddelande. Du kanske kan kontrollera din egen enhet till en någorlunda god nivå, men kan du lite på mottagaren? Om du anser dig göra det, kan du lita på att dennes enhet omöjligen kan komma att komprometteras?  
 12. Dela inte fitness tracker-data publikt. Dina och ditt förbands motionsrundor är inte för allmän beskådan.   
 
 Mycket av detta kan te sig överdrivet eller att det uppvisar paranoida tendenser, men ett visst mått av proaktiv paranoia är sunt.
@@ -75,4 +75,4 @@ På samma sätt, om vi ALLTID agerar med OPSEC och PERSEC i åtanke minimerar vi
 
 Med sunt förnuft kommer vi väldigt långt, och är det något ämne som du känner osäkerhet att diskutera öppet kanske det kan vara bäst att låta bli, eller prata med en kollega, chef eller någon du kan lita på och känner tilltro till.
 
-Oavsett status, rang, ålder eller tjänst - civil eller militär - så är Du en del av ditt lands defensiva infrastruktur. Agera därefter.
+Oavsett status, rang, ålder eller tjänst - civil eller militär - så är DU en del av landets defensiva infrastruktur - agera därefter.
