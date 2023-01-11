@@ -8,6 +8,10 @@ author = "dataterminal"
 # BAKGRUND
 Dataterminal började som Instagramkontot [datarapporteringsterminal](https://instagram.com/datarapporteringsterminal/) under hösten 2022. Syftet var då att skapa en kanal riktad främst till personal som på något sätt var verksam inom Försvarsmakten - oavsett anställd eller Hemvärnet - med målssättningen att bidra till en förmågehöjning inom områdena radiolära, signalskydd och till viss del även cyber, genom enkelt och lättillgängligt utbildningsmaterial.  
 
+Projektet kom att utvecklas till att läcka ut och in i det civila alltmer och kan nu sägas vara lika relevant för hela samhället - civilt som militärt. 
+
+Läs [Dataterminals Mission Statement](https://dataterminal.net/categories/mission-statement/) här. 
+
 # WEBBPLATSEN
 
 Instagrams formatbegränsningar gör att textinnehållet begränsas. Det naturliga steget blev då att skapa denna hemsida, med möjlighet till utökat textinnehåll samt mer utförliga beskrivningar och artiklar.
