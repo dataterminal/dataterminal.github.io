@@ -46,7 +46,7 @@ Skyddet innefattar de självklara sakerna såsom ditt personnummer, telefonnumme
 3. Diskutera inte säkerhetsrutiner, taktik eller svarstider; hur snabbt kunde ni ta er från A till B, eller X antal soldater kunde infinna sig efter Y tid till [eftersök] eller [stöd till samhället].
 4. Diskutera inte färdvägar eller typ av väg; landsväg, motortrafikled. Diskutera inte var ni åt. 
 5. Se till att foton inte visar byggnader eller platser och landmärken som är identifierbara.
-6. OM publicering av bilder med identifierbar information ändå sker, se till att mörklägga eller pixelera delar likt (men ej begränsat till) -----  
+6. OM publicering av bilder med identifierbar information enligt ovan ändå sker, se till att mörklägga eller pixelera delar såsom (men ej begränsat till) person- ortsnamn, registreringsskyltar etc. 
 7. OM du lägger upp bilder, se till att de inte kan misstolkas eller användas i propagandasyfte. Kan din bild, utan bildtext ändå förstås i dess kontext? 
 8. Se till att dina foton inte innhåller metadata.
 9. Namn och registreringsnummer är information som inte ska spridas.

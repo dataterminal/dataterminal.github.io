@@ -10,7 +10,7 @@ tags = [
     "situationsmedvetenhet",
 ]
 categories = [
-    "Intel",
+    "Mission Statement",
 ]
 draft = false
 +++
