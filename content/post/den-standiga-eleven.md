@@ -17,6 +17,11 @@ draft = false
 
 `Detta är en del av Dataterminals mission statement - Defensiv Infrastruktur.`
 <!--more-->
+
+![Defensiv infrastruktur](/images/var-en-elev.webp)  
+
+---
+
 # UTBILDA DIG
 När det kommer till kunskap finns ju uttrycket som går något i stil med att det inte är tungt att bära. Och om det förvisso stämmer, kan det vara desto tyngre att faktiskt lära sig något. 
 

@@ -28,25 +28,18 @@ I allmänhet bestäms bandbredden för en radiosignal av moduleringsmetoden som 
 --- 
 
 ![@datarapporteringsterminal på Instagram](/images/3.webp)  
-*`Bild från` [@datarapporteringsterminal på instagram](instagram.com/datarapporteringsterminal)*
+*`Bild från` [@datarapporteringsterminal på instagram](https://instagram.com/datarapporteringsterminal)*
   
 ![@datarapporteringsterminal på Instagram](/images/4.webp)  
-*`Bild från` [@datarapporteringsterminal på instagram](instagram.com/datarapporteringsterminal)*  
+*`Bild från` [@datarapporteringsterminal på instagram](https://instagram.com/datarapporteringsterminal)*  
 
 ---
+
 Runt den centrala frekvensen, till exempel 87,6 megahertz på FM, måste radiosändningen ha ostörd tillgång till hela sin bandbredd. 
 
 Man kan därför inte tilldela radiostationer frekvenser som ligger alltför nära varandra då de skulle störa varandra.
 
-FM-radio har en bandbredd på omkring 100 - 300 kHz.  
-
-# STÖRNINGAR
-
-I allmänhet är smalbandigtenta mot störningar än bredbandiga signaler. 
-a radiosignaler mer resis
-Detta beror på att smalbandiga signaler upptar en mindre del av radiospektrumet, så det är mindre chans att andra signaler överlappar dem. 
-
-Det är dock viktigt att notera att det finns många faktorer som kan påverka en radiosignals känslighet för störningar, inklusive typen av modulering som används, antenndesignen och avståndet mellan sändaren och mottagaren.  
+FM-radio har en bandbredd på omkring 100 - 300 kHz.
 
 
 

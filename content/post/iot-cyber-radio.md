@@ -17,6 +17,11 @@ draft = false
 
 `Detta är en del av Dataterminals mission statement - Defensiv Infrastruktur.`
 <!--more-->
+
+![Defensiv infrastruktur](/images/cyber-iot-radio.webp)  
+
+---
+
 # RADIO <3 CYBER 
 Beröringspunkterna mellan radio och cyber är stora. För dig som kommer i kontakt med radio och samband är det av värde att lära sig cyber, och omvänt är det av värde att lära sig om radio om ditt område är cyber. 
 

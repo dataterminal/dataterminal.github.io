@@ -7,14 +7,26 @@ author = "dataterminal"
 +++
 # NEDLADDNINGSBART
 
+## DATATERMINAL
+
 Enkla åtgärder och hints gällande samband och cyber, i utskriftsvänligt .pdf-format. 
 Skriv ut och sätt upp på lämplig plats. 
 
-Uppdateras efterhand.
+*Courtesy of Dataterminal*
 
 * [Samband - Signaturreducering](/documents/samband-signaturreducering-printable.pdf)
 * [Samband - God sambandshygien](/documents/samband-god-sambandshygien-printable.pdf)
 * [Cyber - Enkla preventiva åtgärder](/documents/cyber-enkla-preventiva-atgarder-printable.pdf)
+* [Cyber - Proaktiv paranoia](/documents/cyber-proaktiv-paranoia.pdf)
+
+## EXTERNT
+
+Dokument och artiklar från externa källor, av andra författare. Länkar direkt till .pdf.
+
+* [Samband telefonering 2021](https://www.forsvarsmakten.se/siteassets/4-om-myndigheten/dokumentfiler/handbocker/h-sb-tfn-2021.pdf)
+* [Radio Operator's Handbook MCRP 3-40.3B](https://archive.org/download/MCRP3-403B/MCRP3-403B.pdf)
+
+---
 
 # UTBILDNINGSRESURSER
 
